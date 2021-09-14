@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>readme</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style type="text/css">
+body {
+    font-family: Helvetica, arial, freesans, clean, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    background-color: #002b36;
+    color: #839496;
+    padding: 15px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+ol,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+p {
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+ol,
+ul {
+    margin-left: 2em;
+    margin-bottom: 20px;
+}
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: lighter;
+    text-transform: capitalize;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 29.548799999999996px;
+}
+
+h2 {
+    font-size: 26px;
+    line-height: 29.548799999999996px;
+}
+
+h3 {
+    font-size: 22px;
+    line-height: 28.128px;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 26.592px;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 26.592px;
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 26.592px;
+}
+
+h1 img,
+h2 img,
+h3 img,
+h4 img,
+h5 img,
+h6 img,
+p img {
+    margin-bottom: 0;
+}
+
+pre {
+    margin-bottom: 20px;
+}
+
+pre,
+code {
+    font-family: monospace;
+    padding: 5px 5px;
+    background-color: #073642;
+}
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    padding: 5px;
+    overflow: auto;
+}
+
+pre>code {
+    margin: 0;
+    padding: 0;
+    white-space: pre;
+    border: none;
+    background: transparent;
+}
+
+pre code, pre tt {
+    background-color: transparent;
+    border: none;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid;
+}
+
+h2 {
+    border-bottom: 1px solid;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    border-bottom: none;
+}
+
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6 {
+    color: #93a1a1;
+    border-color: #839496;
+}
+
+html a,
+html a:active,
+html a:visited {
+    color: #93a1a1;
+}
+
+html a:hover {
+    background-color: #073642;
+}
+
+html pre {
+    color: #93a1a1;
+    background-color: #073642;
+}
+
+html a,
+html a:active,
+html a:visited,
+html code.url {
+    color: #b58900;
+}
+
+html h1 {
+    color: #b58900;
+}
+
+html h2,
+html h3,
+html h4,
+html h5,
+html h6 {
+    color: #b58900;
+}
+
+blockquote {
+    border: 0;
+    margin: 5px;
+    padding-left: 15px;
+    border-left: 6px solid #b4b4b4;
+    word-break: break-word!important;
+    word-break: break-all;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px
+}
+
+blockquote p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7
+}
+
+blockquote .image-package {
+    width: auto;
+    margin-left: 0
+}
+
+hr {
+    clear: both;
+    margin: 15px 0;
+    height: 0px;
+    overflow: hidden;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #839496;
+    padding: 0;
+}
+
+table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    word-break: normal;
+    word-break: keep-all;
+    margin-bottom: 20px;
+}
+
+table th {
+    font-weight: bold;
+}
+
+table th,
+table td {
+    padding: 6px 13px;
+    border: 1px solid #93a1a1;
+}
+
+table tr {
+    border-top: 1px solid #ccc;
+}
+
+table tr:nth-child(2n) {
+    background-color: #f8f8f8;
+}
+
+img {
+    max-width: 100%
+}
+
+.task-list-item {
+	list-style-type: none
+}
+
+.task-list-item label {
+	font-weight: 400
+}
+
+.task-list-item.enabled label {
+	cursor: pointer
+}
+
+.task-list-item+.task-list-item {
+	margin-top: 3px
+}
+
+.task-list-item .handle {
+	display: none
+}
+
+.task-list-item-checkbox {
+	margin: 0 1em 0.25em -1.6em;
+	vertical-align: middle
+}
+
+/*
+ * vs2015.css
+ */
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #DCDCDC;
+}
+
+.hljs-keyword,
+.hljs-literal,
+.hljs-symbol,
+.hljs-name {
+  color: #569CD6;
+}
+.hljs-link {
+  color: #569CD6;
+  text-decoration: underline;
+}
+
+.hljs-built_in,
+.hljs-type {
+  color: #4EC9B0;
+}
+
+.hljs-number,
+.hljs-class {
+  color: #B8D7A3;
+}
+
+.hljs-string,
+.hljs-meta-string {
+  color: #D69D85;
+}
+
+.hljs-regexp,
+.hljs-template-tag {
+  color: #9A5334;
+}
+
+.hljs-subst,
+.hljs-function,
+.hljs-title,
+.hljs-params,
+.hljs-formula {
+  color: #DCDCDC;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #57A64A;
+  font-style: italic;
+}
+
+.hljs-doctag {
+  color: #608B4E;
+}
+
+.hljs-meta,
+.hljs-meta-keyword,
+.hljs-tag {
+  color: #9B9B9B;
+}
+
+.hljs-variable,
+.hljs-template-variable {
+  color: #BD63C5;
+}
+
+.hljs-attr,
+.hljs-attribute,
+.hljs-builtin-name {
+  color: #9CDCFE;
+}
+
+.hljs-section {
+  color: gold;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+/*.hljs-code {
+  font-family:'Monospace';
+}*/
+
+.hljs-bullet,
+.hljs-selector-tag,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #D7BA7D;
+}
+
+.hljs-addition {
+  background-color: #144212;
+  display: inline-block;
+  width: 100%;
+}
+
+.hljs-deletion {
+  background-color: #600;
+  display: inline-block;
+  width: 100%;
+}
+
+</style>
+<base href='file:///storage/emulated/0/github-repo/spacestarwar/'/>
+<script defer src='file:///android_asset/anchor.js' type='text/javascript'></script>
+<script defer src='file:///android_asset/highlight.js' type='text/javascript'></script>
+<script defer src='file:///android_asset/highlight-init.js' type='text/javascript'></script>
+</head>
+<body>
+<!-- From: M Note -->
+<!-- Author: HJQ -->
+<!-- email: 880634@qq.com --><h1	id="星空战争">星空战争</h1/>
+<p>此5.0mod为停止更新的星空战争，依照GPLv3开源，欢迎fork此仓库进行mod更新。</p>
+<h3	id="本mod作者为minxyzgo。">本mod作者为minxyzgo。</h3/>
+<h1	id="鸣谢">鸣谢</h1/>
+<p><a href="https://github.com/Anuken">Anuken</a></p>
+
+</body>
+</html>
