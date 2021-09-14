@@ -1,0 +1,30 @@
+{
+    localizedName:审判者之光
+    description:目前这种武器只装备于大型旗舰，且耗能巨大。考虑到其危险性，它的制造过程是绝密的，只有建造完成才能一睹真容。
+	hasItems:true
+	health: 8000
+	size: 6
+	reload:600
+	range: 8000
+	recoil: 6
+	targetAir:false
+	hasShadow:false
+	powerUse: 2500.0
+	shots: 1
+	shootSound:末日
+	inaccuracy: 0
+	rotatespeed: 5
+    chargeTime: 600
+	chargeBeginEffect:lancerLaserChargeBegin
+	requirements:[
+		高能晶体/3000
+		致密合金/3000
+		超导晶体/5000
+		初等金属/5000
+		silicon/5000
+		空间湮灭晶体/5
+		titanium/5000
+	]
+	category:turret
+	research:4级武器
+}

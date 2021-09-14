@@ -1,0 +1,42 @@
+{
+	"name": "定向空间炸弹",
+	"description": "由总指挥控制武器，防止敌方干扰单位火力强大。",
+	"speed": 0.0,
+	"maxVelocity":0.0,
+	"buildPower": 0.0,
+	"engineColor": "0014ff",
+	"flying": true,
+	"hitsize": 10,
+	"health": 5000,
+	"drillPower": 0,
+	"mineSpeed": 0,
+	"itemCapacity": 0,
+	"weaponOffsetX": 1,
+	"weaponOffsetY": 15,
+	"shootSound": "重"
+	"weapon": {
+		"name": "g"
+        "length": 2,
+		"reload": 600,
+    	"range": 500,
+		"alternate": false,
+		 "bullet":{
+		    "type":"BasicBulletType"
+			"splashDamageRadius": 80,
+			"splashDamage":30000,
+			"speed": 12,
+			"damage": 50000,
+    		"bulletSprite":"星空战争重置版-blaster"
+			"bulletWidth": 10,
+			"bulletHeight": 30,
+			"trailEffect": "missileTrail",
+			"smokeEffect": "lancerLaserShootSmoke",
+			"ammoMultiplier": 1,
+			"lifetime":600,
+			"backColor":"0000ff",
+			"fontColor":"0000f4",
+			"heatColor":"0000f4",
+			"trailColor":"0000fC",
+             }
+	}
+}

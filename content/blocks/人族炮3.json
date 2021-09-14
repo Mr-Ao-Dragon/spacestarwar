@@ -1,0 +1,66 @@
+{
+	"type": "BurstTurret",
+	"name": "巡航导弹",
+	"description": "巡航导弹，威力较大，一次一枚，对空对地，价格较高",
+	"health": 500,
+	"size": 2,
+	"reload": 60,
+	"shots": 1,
+ 	"velocityInaccuracy":0.1,
+ 	"restitution":1,
+	"range": 800,
+	"shootSound":"导",
+	"targetGround":true,
+	"targetAir":true,
+	"ammoUseEffect": "shellEjectMedium",
+	"inaccuracy": 0,
+	"rotatespeed": 10,
+	"ammo": {
+		"致密合金": {
+		    "type":"MissileBulletType"
+			"splashDamageRadius": 30,
+			"splashDamage":100,
+			"speed": 8,
+			"damage": 230,
+			"bulletWidth": 2,
+			"bulletHeight": 10,
+			"trailEffect": "none",
+			"smokeEffect": "none",
+			"ammoMultiplier": 8,
+			"lifetime":600,
+			"backColor":"0000ff",
+			"fontColor":"0000f4",
+			"heatColor":"0000f4",
+			"trailColor":"0000fC",
+            "homingRange": 240,
+            "homingPower": 200,
+		}
+		"高能晶体": {
+		    "type":"MissileBulletType"
+			"splashDamageRadius": 35,
+			"splashDamage":320,
+			"speed": 8,
+			"damage": 350,
+			"bulletWidth": 8,
+			"bulletHeight": 40,
+			"trailEffect": "none",
+			"smokeEffect": "none",
+			"ammoMultiplier": 8,
+			"lifetime":600,
+			"backColor":"0000ff",
+			"fontColor":"0000f4",
+			"heatColor":"0000f4",
+			"trailColor":"0000fC",
+            "homingRange": 240,
+            "homingPower": 200,
+		}
+	},
+	"requirements": [
+		{ "item": "高能晶体", "amount": 50 },
+		{ "item": "titanium", "amount": 300 }
+		{ "item": "超导晶体", "amount": 150 }
+
+	],
+	"category": "turret",
+	"research": "人族炮2"
+}

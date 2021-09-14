@@ -1,0 +1,31 @@
+{
+	"name": "时空加速器",
+	"description": "使用tardis逆转时间，达到更快生产的目的",
+	"type": "OverdriveProjector"
+	"health": 500,
+	"size": 2,
+	"range": 120,
+	"reload": 30
+	"speedBoost": 1.0,
+	"speedBoostPhase": 10.0,
+	"useTime": 1200,
+	"phaseRangeBoost": 240,
+	"consumes": {
+		"power": 15.0
+        "items":{
+			"items":[
+				{"item":"tardis","amount":1}
+			]
+			"booster":true
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 350 },
+		{ "item": "时间晶体", "amount": 500 },
+		{ "item": "surge-alloy", "amount": 600 },
+		{ "item": "致密合金", "amount": 200 }
+	],
+	"category": "effect",
+	"research":"时间族炮1"
+}

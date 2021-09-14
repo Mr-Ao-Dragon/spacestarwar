@@ -1,0 +1,18 @@
+{
+	"name": "意外之敌",
+	"description": "--你：啊，连续战斗了三个月，终于有人顶替了，可以放。。。             --飞船系统：紧级通讯，来源：审议会第三交涉舰队。                     --你：艹？什么事？接通             --审议会某成员：。。。告。。。是恶魔。。。他们。。。打开。。。。恶。。。能将。。。强行剥离。。。远离。。。星域。。。重。。。[通讯信号中断]                                 --你：什么玩意，谁打开了什么？难道哪个憨皮还故意放恶魔出来？等等，剥什么玩意。。。                     --飞船系统[伴随巨烈振动]：警告，超空间泡异常！跃迁强行中断          警告：受到攻击，护盾离线       警告：前舰体穿透                  警告：供能中断，多系统。。。。    --你：我丢！！。",
+	"loadout": "bXNjaAB4nGNgZGBkZGDJS8xNZWDKqGBkkHk2Y/7zlbuedcx4sqvzZXvv873rnnd26D7Zvftp10IGBgZGBjgAALQyFhs=",
+    "configureObjective": {
+    		"type": "ZoneWave",
+    		"zone": "序章1",
+    		"wave": 114514
+    },
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "合集2", 
+    		"wave":25
+    	},
+    ],
+    "resources": ["tardis"]
+}

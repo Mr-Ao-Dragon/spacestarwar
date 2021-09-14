@@ -1,0 +1,27 @@
+{
+	"type": "draug",
+	"name": "工业无人机",
+	"description": "自动采集各种矿物的无人机.",
+	"speed": 0.5,
+	"flying": true,
+	"hitsize": 8,
+	"dirllPower": 10,
+	"minePower": 10.0,
+	"health": 500,
+	"tier": 501,
+	"toMine":["金属原矿","晶体原矿","titanium","thorium","lead","copper"]
+	"itemCapacity": 500,
+	"rotateWeapon": true,
+	"engineOffset": 15.5,
+	"range": 50,
+	"weapon":{
+	    "name": "重型舰炮"
+        "length": 2,
+    	"tier": 501,
+    	"dirllPower": 80,
+		"reload": 20,
+    	"range": 500,
+		"alternate": true,
+		"bullet":"lancerLaser"
+	}
+}

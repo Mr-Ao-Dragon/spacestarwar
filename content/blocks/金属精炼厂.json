@@ -1,0 +1,33 @@
+{
+	"type": "GenericCrafter",
+	"name": "金属精炼厂",
+	"description": "从金属原矿中提炼初等金属.",
+	"outputItem": {
+		"item": "初等金属", "amount": 5
+		},
+	"itemCapacity": 200,
+	"size": 1,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 90,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2.0
+		"items": {
+			"items": [
+				{ "item": "金属原矿", "amount": 10 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "plastanium", "amount": 20 },
+		{ "item": "silicon", "amount": 50 },
+		{ "item": "thorium", "amount": 120 },
+		{ "item": "phase-fabric", "amount": 10 },
+	],
+	"category": "crafting",
+	"research": "alloy-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

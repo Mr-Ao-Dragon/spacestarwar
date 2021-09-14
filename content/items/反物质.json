@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "反物质",
+	"description": "用于高能发电机。ISK:84",
+	"cost": 3,
+	"hardness": 100,
+	"color": "000000"
+}

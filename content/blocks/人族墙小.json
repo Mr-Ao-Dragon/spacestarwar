@@ -1,0 +1,13 @@
+{
+	"name": "小型复合装甲",
+	"description": "由于科技水平不足，人类只能以复合材料来弥补。",
+	"type": "Wall",
+	"health": 1500,
+	"size": 1,
+	"requirements": [
+		{ "item": "初等金属", "amount": 3 },
+		{ "item": "thorium", "amount": 3 }
+	],
+	"category": "defense"
+	"research": "人族矿机"
+}

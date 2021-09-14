@@ -1,0 +1,24 @@
+{
+	"type": "flyingUnit",
+	"name": "虚境之主",
+	"description": "我们对付过了无数敌人，虽然都是恐怖至极的玩意，但我们从未像今天一样毫无胜算，这东西太大了，我们只能殊死一搏，万幸它飞得可慢了.",
+	"speed": 0.004,
+	"flying": true,
+	"hitsize": 120,
+	"health": 6000000,
+	"rotateWeapon": true,
+	"engineOffset": 50.5,
+	"engineSize":0,
+	"mass":35,
+    "rotateSpeed": 0.02,
+    "maxRotateSpeed": 0.02,
+	"range": 100,
+	"weapon": {
+		"name": "拜拜"
+        "length": 2,
+		"reload": 10,
+    	"range": 100,
+		"alternate": true,
+		 "bullet":"lancerLaser"
+	}
+}

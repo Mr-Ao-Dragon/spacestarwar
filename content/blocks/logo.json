@@ -1,0 +1,12 @@
+{
+	"name": "logo",
+	"description": "如果说非要有用的话。。作为宣告主权的标志吧，毕竟有自信建造它代表这片区域已经完全在你掌握之中了.",
+	"type": "Wall",
+	"health": 1,
+	"size": 1,
+	"requirements": [
+		{ "item": "copper", "amount": 1 }
+	],
+	"category": "effect",
+	"research": "duo"
+}

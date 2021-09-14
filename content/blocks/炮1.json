@@ -1,0 +1,65 @@
+{
+	"type": "BurstTurret",
+	"name": "集束鱼雷",
+	"description": "战后人类对光子鱼雷进行了改装，使其利用效率更高，火力更强",
+	"health": 5000,
+	"size": 4,
+	"reload": 280,
+	"shots": 1,
+ 	"restitution":1,
+	"range": 8000,
+	"targetGround":true,
+	"targetAir":true,
+	"ammoUseEffect": "shellEjectBig",
+	"inaccuracy": 0,
+	"rotatespeed": 10,
+	"ammo": {
+		"高能晶体": {
+		    "type":"MissileBulletType"
+			"splashDamageRadius": 10,
+			"splashDamage":1,
+			"speed": 5,
+			"damage": 2,
+			"bulletWidth": 10,
+			"bulletHeight": 50,
+			"trailEffect": "burning",
+			"smokeEffect": "lancerLaserShootSmoke",
+			"ammoMultiplier": 1,
+			"lifetime":30,
+			"backColor":"0000ff",
+			"fontColor":"0000f4",
+			"heatColor":"0000f4",
+			"trailColor":"0000fC",
+            "homingRange": 240,
+            "homingPower": 200,
+         	"fragBullets":8,
+            "fragBullet":
+         {
+         "type" : "MissileBulletType",
+			"splashDamageRadius": 60,
+			"splashDamage":1000,
+         "speed":8,
+         "pierce":false,
+         "lifetime":900,
+         "bulletWidth": 12,
+		"bulletHeight": 20,
+         "damage":2500,
+         "backColor":"00ffff",			
+         "frontColor":"00ffff",
+         "hitEffect":"shockwave"
+	     "trailColor":"00ffff"
+            "homingRange": 8000,
+            "homingPower": 200,
+		}
+		}
+	},
+	"requirements": [
+		{ "item": "初等金属", "amount": 1000 },
+		{ "item": "超导晶体", "amount": 1000 }
+		{ "item": "高能晶体", "amount": 800 }
+		{ "item": "致密合金", "amount": 800 }
+
+	],
+	"category": "turret",
+	"research": "1级武器"
+}

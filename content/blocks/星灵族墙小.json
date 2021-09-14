@@ -1,0 +1,12 @@
+{
+	"name": "小型致密合金装甲",
+	"description": "对于科技发达的星空各族来说，用这种合金作为护甲已不成问题，毕竟各星族不会像人类一样把战士的生命看作消耗品。",
+	"type": "Wall",
+	"health": 2800,
+	"size": 1,
+	"requirements": [
+		{ "item": "致密合金", "amount": 6 },
+	],
+	"category": "defense"
+	"research": "星灵族矿机"
+}

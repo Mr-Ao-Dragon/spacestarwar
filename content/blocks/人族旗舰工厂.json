@@ -1,0 +1,26 @@
+{
+	"name": "'光荣级'工厂",
+	"description": "生产光荣级星舰",
+	"type": "UnitFactory",
+	"unitType": "人族旗舰",
+	"size": 5,
+	"maxSpawn": 1,
+	"produceTime": 8000,
+	"consumes": {
+		"power": 50.0,
+		"items": {
+			"items": [
+				{"item": "战斗旗舰舰体", "amount": 1},
+				{"item": "高能晶体", "amount": 300}
+			]
+		}
+	},
+	"category": "units",
+	"research": "人族大舰工厂",
+	"requirements": [
+		{ "item": "初等金属", "amount": 500 },
+		{ "item": "致密合金", "amount": 300 },
+		{ "item": "高能晶体", "amount": 200 },
+		{ "item": "超导晶体", "amount": 500 }
+	]
+}

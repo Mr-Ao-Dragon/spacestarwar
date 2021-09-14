@@ -1,0 +1,65 @@
+{
+	"type": "BurstTurret",
+	"name": "小型近程导弹",
+	"description": "一种较为基础的导弹，用于近战，威力小，仅对空，价格便宜",
+	"health": 200,
+	"size": 1,
+	"reload": 15,
+	"maxAmmo":500, 
+	"shots": 1,
+ 	"restitution":1,
+	"range": 160,
+	"targetGround":false,
+	"targetAir":true,
+	"ammoUseEffect": "shellEjectMedium",
+	"inaccuracy": 0,
+	"rotatespeed": 10,
+	"ammo": {
+		"初等金属": {
+		    "type":"MissileBulletType"
+			"splashDamageRadius": 20,
+			"splashDamage":10,
+			"speed": 5,
+			"damage": 5,
+			"bulletWidth": 2,
+			"bulletHeight": 10,
+			"trailEffect": "none",
+			"smokeEffect": "none",
+			"ammoMultiplier": 10,
+			"lifetime":600,
+			"backColor":"0000ff",
+			"fontColor":"0000f4",
+			"heatColor":"0000f4",
+			"trailColor":"0000fC",
+            "homingRange": 240,
+            "homingPower": 200,
+		}
+		"高能晶体": {
+		    "type":"MissileBulletType"
+			"splashDamageRadius": 28,
+			"splashDamage":40,
+			"speed": 8,
+			"damage": 20,
+			"bulletWidth": 8,
+			"bulletHeight": 40,
+			"trailEffect": "nuclearShockwave",
+			"smokeEffect": "bigShockwave",
+			"ammoMultiplier": 40,
+			"lifetime":600,
+			"backColor":"0000ff",
+			"fontColor":"0000f4",
+			"heatColor":"0000f4",
+			"trailColor":"0000fC",
+            "homingRange": 240,
+            "homingPower": 200,
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 50 },
+		{ "item": "titanium", "amount": 10 }
+		{ "item": "初等金属", "amount": 10 }
+
+	],
+	"category": "turret",
+	"research": "人类联邦"
+}

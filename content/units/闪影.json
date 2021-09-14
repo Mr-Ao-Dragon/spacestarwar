@@ -1,0 +1,43 @@
+{
+	"type": "flyingUnit",
+	"name": "闪影",
+	"description": "这种敌人出现于入侵前期，但直到最近才被发现，因为它太快了.",
+	"speed": 15.00,
+	"maxVelocity":15,
+	"flying": true,
+	"hitsize": 12,
+	"health": 2000,
+	"rotateWeapon": true,
+	"engineOffset": 50.5,
+	"engineSize":0,
+	"mass":5,
+    "rotateSpeed": 0.02,
+    "maxRotateSpeed": 0.02,
+    "weaponOffsetX": 100,
+	"range":199
+	"weapon": {
+		"name": "毒刺炮"
+        "length": 2,
+		"reload": 20,
+    	"spacing": 5,
+    	"restitution":180
+		"alternate": true,
+		 "bullet":{
+		    "type":"BasicBulletType"
+			"splashDamageRadius": 10,
+			"splashDamage":100,
+			"speed": 10,
+			"damage": 100,
+			"hitShake":2,
+    		"bulletSprite":"星空战争重置版-恶魔2"
+			"bulletWidth": 4,
+			"bulletHeight": 24,
+			"trailEffect": "none",
+			"smokeEffect": "none",
+			"hitEffect":"blastsmoke"
+			"lifetime":58,
+			"ammoMultiplier": 1,
+			
+             }
+	}
+}

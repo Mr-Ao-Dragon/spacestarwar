@@ -1,0 +1,38 @@
+{
+	"name": "科研所的救援",
+	"description": "--这里是卡加罗科研站，刚才我们遭到了空间恶魔袭击，还好只是先头部队，但我们必须撤离，因为我们侦测到了大规模空间波动，它们应该不远了。                                          你奉命驾驶救援舰前往救援，科研站有20w科学家，每传送一名科学家你将获得一个科研点，用飞船上的发射台尽可能传送他们！敌人会迅速增多   ",
+	"loadout": "bXNjaAB4nGNgYmBiZGDJS8xNZWB/tmDH0/3NhowMSs9mzH++ctezjhlPdnW+bO99vnfd884O3WfTp7/o2ABRxcDAwMgABwBc/B4N",
+    "startingItems": [
+    	{"item": "致密合金", "amount": 200},
+    	{"item": "copper", "amount": 500},
+    	{"item": "titanium", "amount": 300},
+    	{"item": "高能晶体", "amount": 1000},
+    	{"item": "初等金属", "amount": 1000},
+    	{"item": "超导晶体", "amount": 1000},
+    	{"item": "silicon", "amount": 1000},
+    	{"item": "surge-alloy", "amount": 200},
+    	{"item": "graphite", "amount": 1000},
+    	
+    ],
+    "conditionWave": 10,
+    "launchPeriod": 5,
+    "requirements": [
+    	{
+    		"type": "Launched",
+    		"zone": "星灵族5", 
+    	},
+    	{
+    		"type": "Launched",
+    		"zone": "人族5", 
+    	},
+    	{
+    		"type": "Launched",
+    		"zone": "时间族5", 
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "矿机1"
+    	}
+    ],
+    "resources": ["copper","coal","titanium","thorium","sand","金属原矿","lead","反物质","晶体原矿"]
+}

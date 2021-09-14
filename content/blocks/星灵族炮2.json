@@ -1,0 +1,41 @@
+{
+    "type":"PowerTurret",
+	"name": "轻型能量炮",
+	"description": "一种装备所有舰船的武器，性价比很高。但由于愚蠢的实习生Liteve误将火控雷达设计图原本用来包面包，导致局部损坏，射程缩为1/20",
+	"health":800,
+	"size":2,
+	"reload":30 ,
+	"range":400,
+	"targetGround":true,
+	"targetAir":true,
+	"shootSound":"轻",
+	"ammoUseEffect":"shellEjectMedium",
+	"inaccuracy": 0,
+	"rotatespeed": 10,
+	"powerUse": 5.0,
+	"shootType":{
+        "type" : "BasicBulletType",
+		"splashDamageRadius":20,
+		"splashDamage": 70,
+		"bulletSprite":"星空战争重置版-blaster",
+		"speed": 10.5,
+		"damage": 100,
+		"bulletWidth": 6,
+		"bulletHeight": 20,
+		"trailEffect": "none",
+		"smokeEffect": "lancerLaserShootSmoke",
+		"ammoMultiplier": 1,
+		"lifetime":600,
+		"backColor":"0000ff",
+		"fontColor":"0000ff",
+		"heatColor":"0000ff",
+		"trailColor":"0000ff"
+	},
+	"requirements": [
+		{ "item": "初等金属", "amount": 100 },
+		{ "item": "silicon", "amount": 70 },
+		{ "item": "超导晶体", "amount": 200 }
+	],
+	"category": "turret",
+	"research": "星灵族炮1"
+}

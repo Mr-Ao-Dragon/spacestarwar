@@ -1,0 +1,49 @@
+{
+	"type": "HoverUnit",
+	"name": "焚灭",
+	"description": "我们以为死神已是这些人恶魔的顶峰，然而在焚灭的面前，死神就是个弟弟。它能发射威力巨大的空间燃烧武器，让一切化为尘土，即使逃过一劫，仍逃不过大火吞噬.",
+	"speed": 0.05,
+	"flying": true,
+	"hitsize": 40,
+	"health": 80000,
+	"rotateWeapon": true,
+	"engineOffset": 50.5,
+	"engineSize":0,
+	"attackLength":400,
+	"mass":5,
+    "rotateSpeed": 0.02,
+    "maxRotateSpeed": 0.02,
+    "weaponOffsetX": 100,
+	"range": 800,
+	"weapon": {
+		"name": "焚灭炮"
+        "length": 2,
+		"reload": 120,
+    	"range": 800,
+		"alternate": true,
+		 "bullet":{
+		    "type":"BasicBulletType"
+			"splashDamageRadius": 80,
+			"splashDamage":1000,
+			"speed": 8,
+			"damage": 1000,
+			"hitShake":2,
+    		"bulletSprite":"星空战争重置版-恶魔1"
+			"bulletWidth": 30,
+			"bulletHeight": 30,
+			"trailEffect": "none",
+			"smokeEffect": "none",
+			"hitEffect":"nuclearcloud"
+			"lifetime":208,
+			"ammoMultiplier": 1,
+			"backColor":"0000ff",
+			"fontColor":"0000f4",
+			"heatColor":"0000f4",
+			"trailColor":"0000fC",
+			"incendChance":100,
+			"incendAmount":20,
+			"incendSpread":160
+			
+             }
+	}
+}

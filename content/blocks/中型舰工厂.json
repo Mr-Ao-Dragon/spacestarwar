@@ -1,0 +1,33 @@
+{
+	"type": "GenericCrafter",
+	"name": "中型舰体制造厂",
+	"description": "制造中型舰体.",
+	"outputItem": {
+		"item": "中型舰体", "amount": 1
+		},
+	"itemCapacity": 200,
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 960,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 8.0
+		"items": {
+			"items": [
+				{ "item": "初等金属", "amount": 200 }
+				{ "item": "超导晶体", "amount": 200 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "初等金属", "amount": 100 },
+		{ "item": "超导晶体", "amount": 100 },
+		{ "item": "致密合金", "amount": 50 },
+	],
+	"category": "crafting",
+	"research": "小型舰工厂",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

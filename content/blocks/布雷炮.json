@@ -1,0 +1,90 @@
+{
+	"type": "ItemTurret",
+	"name": "'天网'布雷中心",
+	"description": "在步入太空之前的战争中，许多星族都使用过地雷，那么，如果让地雷变成太空雷呢？派遣一次性布雷无人机，让敌人开门大吉（注意，布雷舰中途损毁或空雷未到指定地点将大大降低威力）",
+	"health": 5000,
+	"size": 4,
+	"reload": 360,
+	"shots": 1,
+ 	"restitution":1,
+	"range": 8000,
+	"targetGround":true,
+	"targetAir":true,
+	"ammoUseEffect": "shootBig",
+	"inaccuracy": 0,
+	"rotatespeed": 10,
+	"ammo": {
+		"小型舰体": {
+		    "type":"FlakBulletType",
+		    "splashDamage": 0,
+		    "explodeRange": 280
+			"speed": 10,
+		    "bulletSprite": "星空战争重置版-布雷机"
+			"damage": 100,
+			"bulletWidth": 15,
+			"bulletHeight": 15,
+			"smokeEffect": "shootBigSmoke",
+			"ammoMultiplier": 1,
+			"lifetime":600,
+			"pierce":true,
+			"backColor":"0000ff",
+			"fontColor":"0000f4",
+			"heatColor":"0000f4",
+			"trailColor":"0000fC",
+            "homingRange": 480,
+            "homingPower": 1,
+         	"fragBullets":32,
+             "collides":false,
+             "collidesTiles":false,
+             "collidesAir":false,
+             "fragVelocityMax": 5.0,
+             "flagVelocityMin": 0.4
+            "fragBullet":
+         {
+         "type" : "BasicBulletType",
+         "pierce":false,
+         "lifetime":40,
+         "keepVelocity":true,
+         "bulletWidth": 8,
+		"bulletHeight": 8,
+         "damage":100,
+         "splashDamage":400,
+         "splashDamageRadius":64,
+         "backColor":"00ffff",			
+         "frontColor":"00ffff",
+         "hitEffect":"shockwave",
+	     "trailColor":"00ffff",
+	     "collides":false,
+         	"fragBullets":1,
+            "fragBullet":
+         {
+         "type" : "FlakBulletType",
+         "speed":0,
+         "explodeRange":64
+         "pierce":true,
+         "lifetime":15000,
+         "bulletWidth": 8,
+		"bulletHeight": 8,
+         "damage":300,
+         "splashDamage": 500,
+         "splashDamageRadius": 88
+         "backColor":"e8fo28",			
+         "frontColor":"fbfdd3",
+         "hitEffect":"plasticExplosion",
+         "despawnEffect":"plasticExplosion",
+	     "lightining": 5,
+	     "lightningLength": 10,
+		}
+		}
+		}
+	},
+	"requirements": [
+		{ "item": "初等金属", "amount": 1500 }
+		{ "item": "超导晶体", "amount": 1500 }
+		{ "item": "高能晶体", "amount": 1500 }
+		{ "item": "致密合金", "amount": 1500 }
+
+	],
+	"category": "turret",
+	"research": "2级武器"
+}

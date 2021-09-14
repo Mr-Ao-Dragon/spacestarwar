@@ -1,0 +1,16 @@
+{
+	"name": "工程舰平台",
+	"description": "工程舰.",
+	"type": "MechPad",
+	"mech": "指挥舰",
+	"size": 2,
+	"consumes": {
+		"power": 50.0
+	},
+	"category": "upgrade",
+	"research": "旗舰核心",
+	"requirements": [
+		{ "item": "致密合金", "amount": 100 },
+		{ "item": "反物质", "amount": 100 },
+	]
+}

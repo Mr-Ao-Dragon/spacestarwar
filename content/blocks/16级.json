@@ -1,0 +1,12 @@
+{
+	"name": "矿物冶炼进阶理论",
+	"description": ".",
+	"type": "Wall",
+	"health": 1,
+	"size": 1,
+	"requirements": [
+		{ "item": "研究点", "amount": 750 }
+	],
+	"category": "effect"
+	"research": "1级"
+}

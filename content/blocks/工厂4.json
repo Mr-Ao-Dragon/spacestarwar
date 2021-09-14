@@ -1,0 +1,35 @@
+{
+	"type": "GenericCrafter",
+	"name": "'交错'相织集中生产仪",
+	"description": "以更少的消耗，更高的速度生产大量相织布，是目前最先进的生产系统.",
+	"outputItem": {
+		"item": "phase-fabric", "amount": 100
+		},
+	"itemCapacity": 2000,
+	"size": 4,
+	"health":1500,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 350,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 45.0
+		"items": {
+			"items": [
+				{ "item": "sand", "amount": 700 }
+				{ "item": "thorium", "amount": 300 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "超导晶体", "amount": 150 },
+		{ "item": "初等金属", "amount": 250 },
+		{ "item": "致密合金", "amount": 50 },
+		{ "item": "phase-fabric", "amount": 200 },
+	],
+	"category": "crafting",
+	"research": "2级",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

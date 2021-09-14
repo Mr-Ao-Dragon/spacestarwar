@@ -1,0 +1,19 @@
+{
+	"name": "pvp修复",
+	"description": "禁止建造。",
+	"type": "MendProjector"
+	"health": 30,
+	"buildVisibility":"sandboxOnly",
+	"size": 1,
+	"range": 150,
+	"reload": 60
+	"healPercent": 50,
+	"consumes": {
+		"power": 2.5
+	},
+	"requirements": [
+		{ "item": "coal", "amount": 10 },
+		{ "item": "sand", "amount": 50 }
+	],
+	"category": "effect"
+}

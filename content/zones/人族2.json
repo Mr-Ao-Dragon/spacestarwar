@@ -1,0 +1,35 @@
+{
+	"name": "星云深渊",
+	"description": "众所周知，星云内部有着丰富的资源，不幸的是，敌人也知道",
+	"loadout": "bXNjaAB4nIWU3W4TVxDHZ732fvs7iR0SWoSEhIR8Qd5osbfUKLbRZp02t0ElAQki1EpJBCIIUhUuGtGqH8hq4BH6Ellv/BR0zpzZyU0dIu3m57PnnPnPf84ZqMJXBhSH4SCC4tlksnYVrk8PjrJ3k+nuwdnk0WznSXZ6kj3a7eDH6f5e+vowPf7ly3Pe70Hl/rfhRtTpjoab0dYohmuXrcm2T9agMoiGvc79eHQv6ia4ovpdmERxJ/o+iUMasNSEKIZKdzQYhDi3Gw1xBviDcGOj04v7m/jDvhMmOLgFfq+/kcT9O2O19FLF08fH2fOP4NwbD7tJfzQEZzxcH4Uq1I3/Xzc9/Ovs9Mfs94/Z9j/p0+1502Y7z9LfXl5M+5IHt6G0GY7Xk3lyp/v757vvp68+pJ8eQC2MB6M46l1YbMWjsfJjzurs6BOuTv/+WUkps02d9TC+G8GtOco+/Joen5w/OJ3t7KW7D2c/PEkP387L9vyPI5yZ7j3Lfvpz+mICNy/LdvbmJc5hMZemmwvuxeH4bucbOgpbUE/6STjsjwcX6QMc4gNV9QIDnzpRAZ8GlPBR1ERqEi0gLdC8RVmxBPlfS71MNWoKlYRsIVeozpsYuH9Oi0LLMm+FRRXA568FKAuResNEyhWYWhBRgaiIVCQqIVm0QpFDZCF5FMNGqsuKJu9ssipFy7KzVuVgjv7nfz/HposRSBVRRagqVCPykFqcUYk8BNOEErtmIWnXfPxvCZFSM0DSmZeRVIy2WUHSMapINfmq8vjaKKg6kr4C1RF/EalaNs0avnVuipY4yxJnqbSsiNJVohpYrK+ONdVZNnCsJmPkmlnGMbVzw2wi6Z0VtWSXNntvcQx1RrQbinTdamCzLwtIRSGtoIlkCdlCjpAr5An5rM+GQPlnKCKloL7mSm2t1FDR2uyQrX1BzTZcEc0X6leFrrJrjtTX4Txq4LD6RSStfgl1aqUtHMv1OaQvMBQpd10aq5OninJ3HdHsaM2gYrS5lo7U0pFaOqzUwqgljuty3DZSwGfIpfq65jKSPmFXkHSlC0j5uXLROZfOlYvnyqVz5cq5clmfh9SSuLkWqgvdKE/uqseVXkHSDrlIWt8qEp06YxlJqwqQGjSm1ua31pNb68mt9TiuytbhnX323kLyWJUvncaXTuNzpwmQ6kINjuFL9wmk/wXS/wLpf4H0v0D6XyD9L5D+F2jN6gSIV2Xu1Ip0pQ30Iu/ZFdTiUs+uUD2aRAtUEzVvUVbonv0f072wPg==",
+    "startingItems": [
+    	{"item": "copper", "amount": 1000},
+    	{"item": "surge-alloy", "amount": 1000},
+    	{"item": "titanium", "amount": 1000},
+    	{"item": "thorium", "amount": 1000},
+    	{"item": "lead", "amount": 1000},
+    	{"item": "silicon", "amount": 1000},
+    	{"item": "初等金属", "amount": 1000},
+    	{"item": "超导晶体", "amount": 1000},
+    	{"item": "graphite", "amount": 1000},
+    	
+    ],
+    "conditionWave": 10,
+    "launchPeriod": 5,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "人族1", 
+    		"wave": 20
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "人类联邦"
+    	}
+    	{
+    		"type": "Unlock",
+    		"block": "矿机1"
+    	}
+    ],
+    "resources": ["copper","coal","titanium","thorium","sand","金属原矿","lead","反物质","晶体原矿"]
+}

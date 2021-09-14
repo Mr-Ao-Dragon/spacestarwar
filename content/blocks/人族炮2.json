@@ -1,0 +1,67 @@
+{
+	"type": "BurstTurret",
+	"name": "散射导弹",
+	"description": "散射导弹，威力较小但数量多，对空对地，价格一般。由于盗用了错误的图纸，射程仅为原来的1/20。",
+	"health": 500,
+	"size": 2,
+	"reload": 90,
+	"maxAmmo":500, 
+	"shots": 8,
+ 	"velocityInaccuracy":0.1,
+ 	"restitution":1,
+	"range": 400,
+	"shootSound":"导",
+	"targetGround":true,
+	"targetAir":true,
+	"ammoUseEffect":"shellEjectMedium",
+	"inaccuracy": 5,
+	"rotatespeed": 10,
+	"ammo": {
+		"初等金属": {
+		    "type":"MissileBulletType"
+			"splashDamageRadius": 20,
+			"splashDamage":20,
+			"speed": 8,
+			"damage": 6,
+			"bulletWidth": 2,
+			"bulletHeight": 10,
+			"trailEffect": "none",
+			"smokeEffect": "none",
+			"ammoMultiplier": 32,
+			"lifetime":600,
+			"backColor":"0000ff",
+			"fontColor":"0000f4",
+			"heatColor":"0000f4",
+			"trailColor":"0000fC",
+            "homingRange": 240,
+            "homingPower": 200,
+		}
+		"高能晶体": {
+		    "type":"MissileBulletType"
+			"splashDamageRadius": 30,
+			"splashDamage":40,
+			"speed": 8,
+			"damage": 18,
+			"bulletWidth": 8,
+			"bulletHeight": 40,
+			"trailEffect": "none",
+			"smokeEffect": "none",
+			"ammoMultiplier": 96,
+			"lifetime":600,
+			"backColor":"0000ff",
+			"fontColor":"0000f4",
+			"heatColor":"0000f4",
+			"trailColor":"0000fC",
+            "homingRange": 240,
+            "homingPower": 200,
+		}
+	},
+	"requirements": [
+		{ "item": "thorium", "amount": 50 },
+		{ "item": "titanium", "amount": 100 }
+		{ "item": "初等金属", "amount": 100 }
+
+	],
+	"category": "turret",
+	"research": "人类联邦"
+}

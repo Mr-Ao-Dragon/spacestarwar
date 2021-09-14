@@ -1,0 +1,26 @@
+{
+	"name": "'暴风级'工厂",
+	"description": "生产暴风级星舰",
+	"type": "UnitFactory",
+	"unitType": "星灵族大舰",
+	"size": 4,
+	"maxSpawn": 2,
+	"produceTime": 4200,
+	"consumes": {
+		"power": 20.5,
+		"items": {
+			"items": [
+				{"item": "大型舰体", "amount": 1},
+				{"item": "高能晶体", "amount": 150}
+			]
+		}
+	},
+	"category": "units",
+	"research": "星灵族中舰工厂",
+	"requirements": [
+		{ "item": "初等金属", "amount": 400 },
+		{ "item": "致密合金", "amount": 100 },
+		{ "item": "silicon", "amount": 200 },
+		{ "item": "超导晶体", "amount": 120 }
+	]
+}

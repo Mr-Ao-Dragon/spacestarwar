@@ -1,0 +1,12 @@
+{
+	"name": "[red]人类联邦",
+	"description": "由人类构成，自称公平和平，实际由于特权、阶级的存在被全宇宙集体排斥并封锁，导致防御与攻击均较脆弱，但得益于其变态的三六九等观念，使其人口大增，士兵作为工具存在，因此单位数量大于其它种族。.",
+	"type": "Wall",
+	"health": 1,
+	"size": 1,
+	"requirements": [
+		{ "item": "种族选择", "amount": 1 }
+	],
+	"category": "effect"
+	"research": "meltdown"
+}

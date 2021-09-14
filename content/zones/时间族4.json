@@ -1,0 +1,34 @@
+{
+	"name": "两面为难",
+	"description": "哦，发克，现在好了，人类也搞出了时空技术，而刚出现的时间裂缝无疑将大大方便双方乱搞时空，要是不去阻止，时间线将变得一团糟，好了，现在由你去镇守，对，来一个打一个。",
+	"loadout": "bXNjaAB4nGNgYmBiZGDJS8xNZWB/tmDH0/3NhowMSs9mzH++ctezjhlPdnW+bO99vnfd884O3WfTp7/o2ABRxcDAwMgABwBc/B4N",
+    "startingItems": [
+    	{"item": "致密合金", "amount": 5000},
+    	{"item": "tardis", "amount": 5},
+    	{"item": "空间湮灭晶体", "amount": 100},
+    	{"item": "战斗旗舰舰体", "amount": 25},
+    	{"item": "高能晶体", "amount": 5000},
+    	{"item": "时间晶体", "amount": 1000},
+    	{"item": "初等金属", "amount": 10000},
+    	{"item": "超导晶体", "amount": 10000},
+    	
+    ],
+    "conditionWave": 12,
+    "launchPeriod": 5,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "时间族3", 
+    		"wave": 20
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "时空管理者"
+    	}
+    	{
+    		"type": "Unlock",
+    		"block": "矿机1"
+    	}
+    ],
+    "resources": ["copper","coal","titanium","thorium","sand","金属原矿","lead","反物质","晶体原矿"]
+}

@@ -1,0 +1,33 @@
+{
+	"name": "工程舰",
+	"description": "配有大型工程力量",
+	"speed": 2.0,
+	"maxVelocity":2.0,
+	"buildPower": 5.0,
+	"engineColor": "0014ff",
+	"flying": true,
+	"hitsize": 10,
+	"health": 5000,
+	"drillPower": 100,
+	"mineSpeed": 10,
+	"itemCapacity": 1000,
+	"weaponOffsetX": 1,
+	"weaponOffsetY": 1,
+	"shootSound": "laser"
+	"weapon": {
+		"name": "u"
+        "length": 2,
+		"reload": 10,
+    	"range": 500,
+		"alternate": true,
+		 "bullet":{
+               "speed": 10,
+               "damage": 5,
+               "backColor":"0000ff",
+			   "fontColor":"0000ff",
+			   "heatColor":"0000ff",
+			   "trailColor":"0000ff",
+               "bulletWidth": 1,
+               "bulletHeight": 10}
+	}
+}

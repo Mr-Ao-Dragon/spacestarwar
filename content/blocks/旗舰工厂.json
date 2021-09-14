@@ -1,0 +1,35 @@
+{
+	"type": "GenericCrafter",
+	"name": "旗舰舰体制造厂",
+	"description": "制造战斗旗舰舰体.",
+	"outputItem": {
+		"item": "战斗旗舰舰体", "amount": 1
+		},
+	"itemCapacity": 1000,
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 6000,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 80.0
+		"items": {
+			"items": [
+				{ "item": "致密合金", "amount": 300 }
+				{ "item": "超导晶体", "amount": 600 }
+				{ "item": "高能晶体", "amount": 300 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "surge-alloy", "amount": 500 },
+		{ "item": "超导晶体", "amount": 500 },
+		{ "item": "致密合金", "amount": 200 },
+		{ "item": "高能晶体", "amount": 200 },
+	],
+	"category": "crafting",
+	"research": "大型舰工厂",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

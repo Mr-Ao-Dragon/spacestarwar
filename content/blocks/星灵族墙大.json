@@ -1,0 +1,12 @@
+{
+	"name": "大型致密合金装甲",
+	"description": "对于科技发达的星空各族来说，用这种合金作为护甲已不成问题，毕竟各星族不会像人类一样把战士的生命看作消耗品。                                  本贴图由@木铭（2129142561）设计",
+	"type": "Wall",
+	"health": 12000,
+	"size": 2,
+	"requirements": [
+		{ "item": "致密合金", "amount": 24 },
+	],
+	"category": "defense"
+	"research": "星灵族墙小"
+}

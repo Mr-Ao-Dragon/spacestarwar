@@ -1,0 +1,44 @@
+{
+	"type": "PowerTurret",
+	"name": "轻离子炮",
+	"description": "发射四个离子团，广泛地对敌伤害",
+	"health":2500,
+	"ratateSpeed":1,
+	"size":2,
+	"reload":90 ,
+	"range": 800,
+	"targetGround":false,
+	"targetAir":true,
+	"shootSound":"雷",
+	"ammoUseEffect":"bigShockwave",
+	"shots":4,
+	"velocityinaccuracy":0.1,
+	"inaccuracy": 0,
+	"rotatespeed": 10,
+	"powerUse": 20.0
+	"shootType":{
+        "type" : "BasicBulletType"
+		"splashDamageRadius":80,
+		"splashDamage": 80,
+		"bulletSprite":"星空战争重置版-blaster"
+		"speed": 5.5,
+		"damage": 100,
+		"bulletWidth": 50,
+		"bulletHeight": 20,
+		"trailEffect": "nuclearShockwave",
+		"smokeEffect": "bigShockwave",
+		"ammoMultiplier": 1,
+		"lifetime":600,
+		"backColor":"0000ff",
+		"fontColor":"0000ff",
+		"heatColor":"0000ff",
+		"trailColor":"0000ff",
+	},
+	"requirements": [
+		{ "item": "致密合金", "amount": 200 }
+		{ "item": "高能晶体", "amount": 70 }
+		{ "item": "超导晶体", "amount": 200 }
+	],
+	"category": "turret",
+	"research": "星灵族炮2"
+}

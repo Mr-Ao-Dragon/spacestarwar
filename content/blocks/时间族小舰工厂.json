@@ -1,0 +1,28 @@
+{
+	"name": "'时空之魂'工厂",
+	"description": "生产战用tardis",
+	"type": "UnitFactory",
+	"unitType": "时间小",
+	"size": 4,
+	"health":1500,
+	"maxSpawn": 1,
+	"produceTime": 12000,
+	"consumes": {
+		"power": 18.5,
+		"items": {
+			"items": [
+				{"item": "tardis", "amount": 1},
+				{"item": "致密合金", "amount": 200}
+				{"item": "空间湮灭晶体", "amount": 10}
+			]
+		}
+	},
+	"category": "units",
+	"research": "时间族炮3",
+	"requirements": [
+		{ "item": "初等金属", "amount": 1000 },
+		{ "item": "致密合金", "amount": 500 },
+		{ "item": "高能晶体", "amount": 500 },
+		{ "item": "超导晶体", "amount": 1000 }
+	]
+}

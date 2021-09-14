@@ -1,0 +1,18 @@
+{
+	"name": "'探索'采掘器",
+	"description": "'基石'钻机的加强版，更快开矿.",
+	"type": "Drill",
+	"size": 3,
+	"tier": 1500,
+	"drillTime": 60,
+	"liquidBoostIntensity":4
+	"consumes": {
+		"power": 20.0,
+	},
+	"requirements": [
+		{ "item": "初等金属", "amount": 200 },
+		{ "item": "超导晶体", "amount": 30 },
+	],
+	"category": "production",
+	"research": "星灵族炮1"
+}

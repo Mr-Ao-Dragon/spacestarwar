@@ -1,0 +1,43 @@
+{
+	"type": "flyingUnit",
+	"name": "'星辰'中型星舰",
+	"description": "星辰级星舰是最早参战的型号之，其横向的设计加大了火力输中面积。 横向全长：1000米（250象素）     武器：集束能量炮             防护：12000.",
+	"speed": 0.065,
+	"flying": true,
+	"hitsize": 40,
+	"health": 12000,
+	"attackLength":400,
+	"rotateWeapon": true,
+	"engineOffset": 50.5,
+	"engineSize":0,
+	"mass":5,
+    "rotateSpeed": 0.03,
+    "maxRotateSpeed": 0.04,
+    "weaponOffsetX": 100,
+	"range": 50,
+	"weapon": {
+		"name": "集束能量炮"
+        "length": 2,
+		"reload": 20,
+    	"range": 50,
+		"alternate": true,
+		 "bullet":{
+		    "type":"BasicBulletType"
+			"splashDamageRadius": 10,
+			"splashDamage":30,
+			"speed": 8,
+			"damage": 30,
+    		"bulletSprite":"星空战争重置版-blaster"
+			"bulletWidth": 5,
+			"bulletHeight": 15,
+			"trailEffect": "nuclearShockwave",
+			"smokeEffect": "bigShockwave",
+			"lifetime":50,
+			"ammoMultiplier": 1,
+			"backColor":"0000ff",
+			"fontColor":"0000f4",
+			"heatColor":"0000f4",
+			"trailColor":"0000fC",
+             }
+	}
+}

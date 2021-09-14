@@ -1,0 +1,28 @@
+{
+	"name": "'黑渊魔爪'工厂",
+	"description": "生产黑渊魔爪型大型战斗舰",
+	"type": "UnitFactory",
+	"unitType": "时间大",
+	"size": 4,
+	"health":1500,
+	"maxSpawn": 1,
+	"produceTime": 10000,
+	"consumes": {
+		"power": 15.5,
+		"items": {
+			"items": [
+				{"item": "战斗旗舰舰体", "amount": 1},
+				{"item": "致密合金", "amount": 200}
+				{"item": "高能晶体", "amount": 200}
+			]
+		}
+	},
+	"category": "units",
+	"research": "时间族炮3",
+	"requirements": [
+		{ "item": "初等金属", "amount": 800 },
+		{ "item": "致密合金", "amount": 400 },
+		{ "item": "高能晶体", "amount": 400 },
+		{ "item": "超导晶体", "amount": 800 }
+	]
+}

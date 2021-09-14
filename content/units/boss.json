@@ -1,0 +1,25 @@
+{
+	"type": "flyingUnit",
+	"name": "轮回之末",
+	"description": "不幸，我们又探测到了强烈的亚空间信号，时空预测院刚传来最糟糕的消息，我们的未来变得飘忽不定，我们能否胜利？这，取决于你.",
+	"speed": 0.002,
+	"flying": true,
+	"hitsize": 150,
+	"health": 36000000,
+	"rotateWeapon": true,
+	"engineOffset": 50.5,
+	"engineSize":0,
+	"mass":35,
+    "rotateSpeed": 0.02,
+    "maxRotateSpeed": 0.02,
+	"range": 100,
+	"weapon": {
+		"name": "给爷爬",
+        "length": 2,
+		"reload": 10,
+    	"range": 100,
+    	"shots":10,
+		"alternate": true,
+		 "bullet":"lancerLaser"
+	}
+}

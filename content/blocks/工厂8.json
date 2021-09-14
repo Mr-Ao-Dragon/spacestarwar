@@ -1,0 +1,29 @@
+{
+	"type": "GenericCrafter",
+	"name": "'棱晶'晶体生成器",
+	"description": "利用质能转换技术，使能量凝成无信息物质，并通过信息赋予使其成为晶体，在没有晶体矿的区域使用它.",
+	"outputItem": {
+		"item": "晶体原矿", "amount": 15
+		},
+	"itemCapacity": 500,
+	"size": 4,
+	"health":1500,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 120.0
+	},
+	"requirements": [
+		{ "item": "超导晶体", "amount": 350 },
+		{ "item": "初等金属", "amount": 350 },
+		{ "item": "致密合金", "amount": 240 },
+		{ "item": "高能晶体", "amount": 120 },
+	],
+	"category": "crafting",
+	"research": "4级",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

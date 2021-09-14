@@ -1,0 +1,33 @@
+{
+	"type": "GenericCrafter",
+	"name": "'源泉'石墨集中生产仪",
+	"description": "以更少的消耗，更高的速度生产大量石墨，是目前最先进的生产系统.",
+	"outputItem": {
+		"item": "graphite", "amount": 100
+		},
+	"itemCapacity": 200,
+	"health":1500,
+	"size": 4,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 240,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 25.0
+		"items": {
+			"items": [
+				{ "item": "coal", "amount": 120 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "超导晶体", "amount": 100 },
+		{ "item": "初等金属", "amount": 100 },
+		{ "item": "surge-alloy", "amount": 150 },
+	],
+	"category": "crafting",
+	"research": "1级",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

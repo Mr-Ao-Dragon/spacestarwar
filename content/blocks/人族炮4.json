@@ -1,0 +1,48 @@
+{
+	"type": "BurstTurret",
+	"name": "光子鱼雷",
+	"description": "人类最高智慧的结晶，可对舰船（地面）目标造成巨大伤害，使用反物质作为弹药",
+	"health": 1000,
+	"size": 2,
+	"reload": 180,
+	"shots": 1,
+ 	"velocityInaccuracy":0.1,
+ 	"restitution":1,
+	"range": 8000,
+	"shootSound":"雷",
+	"targetGround":true,
+	"targetAir":true,
+	"ammoUseEffect": "shootBig",
+	"inaccuracy": 0,
+	"rotatespeed": 10,
+	"ammo": {
+		"反物质": {
+		    "type":"MissileBulletType"
+			"splashDamageRadius": 60,
+			"splashDamage":1000,
+			"speed": 8,
+			"damage": 2500,
+			"bulletWidth": 10,
+			"bulletHeight": 50,
+			"trailEffect": "nuclearShockwave",
+			"smokeEffect": "bigShockwave",
+			"ammoMultiplier": 1,
+			"lifetime":900,
+			"backColor":"0000ff",
+			"fontColor":"0000f4",
+			"heatColor":"0000f4",
+			"trailColor":"0000fC",
+            "homingRange": 240,
+            "homingPower": 200,
+		}
+	},
+	"requirements": [
+		{ "item": "surge-alloy", "amount": 500 },
+		{ "item": "thorium", "amount": 500 }
+		{ "item": "超导晶体", "amount": 300 }
+		{ "item": "致密合金", "amount": 300 }
+
+	],
+	"category": "turret",
+	"research": "人族炮3"
+}

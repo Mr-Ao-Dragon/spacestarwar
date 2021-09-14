@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "初等金属",
+	"description": "最普通的金属.ISK:18",
+	"cost": 2,
+	"color": "000709"
+}

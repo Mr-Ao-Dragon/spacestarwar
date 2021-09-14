@@ -1,0 +1,45 @@
+{
+	"type": "flyingUnit",
+	"name": "'银河'小型星舰",
+	"description": "人类常规舰队最初的主要小型力量之一 全长:480米（120）                武器:散射导弹                     防御:3000.",
+	"speed": 0.1,
+	"flying": true,
+	"hitsize": 60,
+	"health": 3000,
+	"rotateWeapon": true,
+	"engineOffset": 60.5,
+	"engineSize":0,
+	"mass":5,
+	"attackLength":240,
+    "rotateSpeed": 0.01,
+    "maxRotateSpeed": 0.01,
+    "weaponOffsetX": 100,
+	"range": 30,
+	"weapon": {
+		"name": "散射导弹"
+        "length": 2,
+		"reload": 90,
+    	"range": 30,
+    	"shots": 8,
+    	"inaccuracy": 5,
+		"alternate": true,
+		 "bullet":{
+            "type":"MissileBulletType"
+			"splashDamageRadius": 8,
+			"splashDamage":10,
+			"speed": 8,
+			"damage": 5,
+			"bulletWidth": 2,
+			"bulletHeight": 10,
+			"trailEffect": "nuclearShockwave",
+			"smokeEffect": "bigShockwave",
+			"lifetime":34,
+			"ammoMultiplier": 1,
+			"backColor":"0000ff",
+			"fontColor":"0000f4",
+			"heatColor":"0000f4",
+			"trailColor":"0000fC",
+            "homingRange": 240,
+            "homingPower": 200,}
+	}
+}

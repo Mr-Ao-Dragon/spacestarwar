@@ -1,0 +1,13 @@
+{
+    "name":"初级诱导信标",
+    "description":"可召唤一支七艘战巡舰组成的舰队至目标位置",
+    "health":12,
+    "size":2,
+	"requirements": [
+		{ "item": "空间湮灭晶体", "amount": 1 },
+		{ "item": "高能晶体", "amount": 325 }
+
+	],
+    "research":"9级武器",
+    "category":"effect"
+}

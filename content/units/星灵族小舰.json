@@ -1,0 +1,45 @@
+{
+	"type": "flyingUnit",
+	"name": "'探索者'小型星舰",
+	"description": "在战争的初期这种战舰就被创造出来，其高射速的特点使其能更好地对付人类的战机海战术。      全长：600米（150象素）     武器：速射光子炮             防护：5000.",
+	"speed": 0.125,
+	"flying": true,
+	"hitsize": 20,
+	"health": 5000,
+	"rotateWeapon": true,
+	"engineOffset": 50.5,
+	"engineSize":0,
+	"mass":5,
+	"attackLength":240
+    "rotateSpeed": 0.03,
+    "maxRotateSpeed": 0.04,
+    "weaponOffsetX": 100,
+	"range": 30,
+	"weapon": {
+		"name": "速射光子炮"
+        "length": 2,
+		"reload": 20,
+    	"range": 30,
+    	"shots": 8,
+    	"velocityInaccuracy": 0.1,
+		"alternate": true,
+		 "bullet":{
+		    "type":"BasicBulletType"
+			"splashDamageRadius": 10,
+			"splashDamage":10,
+			"speed": 15,
+			"damage": 10,
+    		"bulletSprite":"星空战争重置版-blaster"
+			"bulletWidth": 1,
+			"bulletHeight": 5,
+			"trailEffect": "nuclearShockwave",
+			"smokeEffect": "bigShockwave",
+			"lifetime":34
+			"ammoMultiplier": 1,
+			"backColor":"0000ff",
+			"fontColor":"0000f4",
+			"heatColor":"0000f4",
+			"trailColor":"0000fC",
+             }
+	}
+}

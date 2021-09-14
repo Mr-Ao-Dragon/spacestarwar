@@ -1,0 +1,28 @@
+{
+    localizedName:粒子光矛
+    description:目前这种武器只装备于大型旗舰，且耗能巨大。
+	hasItems:true
+	health: 2000
+	size: 3
+	reload:180
+	range: 8000
+	recoil: 6
+	targetAir:false
+	powerUse: 500.0
+	shots: 1
+	inaccuracy: 0
+	rotatespeed: 5
+    chargeTime: 180
+    chargeMaxDelay:120
+    firingMoveFract:0.5
+    hitEffect:lancerLaserCharge
+	chargeBeginEffect:lancerLaserChargeBegin
+	requirements:[
+		高能晶体/500
+		致密合金/500
+		超导晶体/500
+		初等金属/500
+	]
+	category:turret
+	research:3级武器
+}

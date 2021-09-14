@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "晶体原矿",
+	"description": "内含特殊晶体物质，可提炼超导晶体ISK:5",
+	"hardness": 5,
+	"color": "030302"
+}

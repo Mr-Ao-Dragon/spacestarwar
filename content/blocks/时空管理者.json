@@ -1,0 +1,12 @@
+{
+	"name": "[#0000ff]时空管理者",
+	"description": "由一群负责维护时空稳定，历史正常的星族所组成，通常与星灵族合作抗击人类如病毒般的扩张，科技远超时代，所用武器与单位均如神一般存在，其造价也高得离谱.",
+	"type": "Wall",
+	"health": 1,
+	"size": 1,
+	"requirements": [
+		{ "item": "种族选择", "amount": 1 }
+	],
+	"category": "effect"
+	"research": "meltdown"
+}

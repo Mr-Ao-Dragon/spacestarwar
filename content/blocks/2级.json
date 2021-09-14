@@ -1,0 +1,12 @@
+{
+	"name": "先进二相生产",
+	"description": ".",
+	"type": "Wall",
+	"health": 1,
+	"size": 1,
+	"requirements": [
+		{ "item": "研究点", "amount": 1000 }
+	],
+	"category": "effect"
+	"research": "1级"
+}

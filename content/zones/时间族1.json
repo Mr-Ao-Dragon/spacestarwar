@@ -1,0 +1,31 @@
+{
+	"name": "始源",
+	"description": "这是故事开始的地方，人类的远征军发现了一个有大量资源的星球，于是他们开始侵略，阻止他们！                   --为什么给我个六边形玩意？       --喂喂，这六边形造价也不低，再说初次遇敌，奇怪的形状才能让敌人大吃一惊。                   --你：。。。。给我调台tardis不行啊？我艹，还要自己采矿，让我多带点资源会死啊。                     --喂，好歹能飞能打了，行吧",
+	"loadout": "bXNjaAB4nI2SUW7TQBCGJ1k7sV1nk9IDIIF4QhbiHJzCJKZQpXZlnJS+oVSQFKlElSqlFYhUVVDhgaigAiGi7QngFLGdnKLMrjfz1Kg8ZPVldmb2/8cDy1DJgea76x6sJL0f6efxZPQyHZ9MO6cPkv1fK8A3nrrPPaca+E1vKwjhXnLQx6ykczAZ78zau+n5MN3pOFg7650lvW58fBgPTuDuDWlpa/gQ7lyflPYv8fn458f4bQtKtdBtrDpP3GoUhFtQfOxGkYdgrDX8avQs8G9UlLwZpO8ugK97fs3ZCIM1T7T6LyOnXTAafj1wa14IetNt1KNFopNeD0UnR6P4chtKSqVTd8NVb9FTs/Ze/PVD+u0ibf0WVu9fnzYZfYkHw+n2+azdjTuvZ69248NPi3pOz/qYGXf30v3vyfsxaJtu04PypotyHO9FFMo5AsAj/AGDAjAmSEPSJOlIOstBDuRfSTpRkcgkWlLEIC8pj6RJYvIFQRqSQbcWVdiKdOwjSEdiRFkX1KMUFKW6eSzrZyCZqrNOWnQoZQaFQ+UNz6u/V38k6dJ5Ac+si5k5U5RpsZCEo9tsCbMyLTbGMgUljJlENtVyorIigzobqjNHylOME80rTKowSYuptAi3BYoJ1bbM41RRVjOwVC0giZlrkuYzsHAGGGdlPLN+FbDU9zXAoplaNFNLzVRMmRFpRNk3KiMVVIVNG2GrvGWk7PYWkkG3FlXMN4LT/nHaP077x2n/uNIHUJEumSRN+a1Ilzr7B6v8LxY=",
+    "startingItems": [
+    	{"item": "copper", "amount": 1000},
+    	{"item": "surge-alloy", "amount": 1000},
+    	{"item": "titanium", "amount": 1000},
+    	{"item": "thorium", "amount": 1000},
+    	{"item": "lead", "amount": 1000},
+    	{"item": "silicon", "amount": 1000},
+    ],
+    "conditionWave": 10,
+    "launchPeriod": 5,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "序章1", 
+    		"wave": 1
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "时空管理者"
+    	}
+    	{
+    		"type": "Unlock",
+    		"block": "矿机1"
+    	}
+    ],
+    "resources": ["copper","coal","titanium","thorium","sand","金属原矿","lead"]
+}

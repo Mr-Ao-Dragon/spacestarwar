@@ -1,0 +1,42 @@
+{
+	"type": "PowerTurret",
+	"name": "重离子炮",
+	"description": "发射一个离子团，广泛地对敌伤害。由Liteve导致的灾难使得火控系统发展缓慢，100年内仅使射程提升了一倍",
+	"health":2500,
+	"ratateSpeed":1,
+	"size":2,
+	"reload":90 ,
+	"range": 800,
+	"targetGround":true,
+	"targetAir":false,
+	"shootSound":"雷",
+	"ammoUseEffect":"shellEjectMedium",
+	"inaccuracy": 0,
+	"rotatespeed": 10,
+	"powerUse": 20.0
+	"shootType":{
+        "type" : "BasicBulletType"
+		"splashDamageRadius":40,
+		"splashDamage": 300,
+		"bulletSprite":"星空战争重置版-blaster"
+		"speed": 5.5,
+		"damage": 400,
+		"bulletWidth": 50,
+		"bulletHeight": 20,
+		"trailEffect": "nuclearShockwave",
+		"smokeEffect": "bigShockwave",
+		"ammoMultiplier": 1,
+		"lifetime":600,
+		"backColor":"0000ff",
+		"fontColor":"0000ff",
+		"heatColor":"0000ff",
+		"trailColor":"0000ff",
+	},
+	"requirements": [
+		{ "item": "致密合金", "amount": 200 }
+		{ "item": "高能晶体", "amount": 70 }
+		{ "item": "超导晶体", "amount": 200 }
+	],
+	"category": "turret",
+	"research": "星灵族炮2"
+}

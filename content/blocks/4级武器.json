@@ -1,0 +1,12 @@
+{
+	"name": "末日光束导论",
+	"description": ".",
+	"type": "Wall",
+	"health": 1,
+	"size": 1,
+	"requirements": [
+		{ "item": "研究点", "amount": 25000 }
+	],
+	"category": "effect"
+	"research": "3级武器"
+}

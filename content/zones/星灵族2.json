@@ -1,0 +1,35 @@
+{
+	"name": "星云深渊",
+	"description": "众所周知，星云内部有着丰富的资源，不幸的是，敌人也知道                    --终于开战舰了。。。                --当心点，很贵的",
+	"loadout": "bXNjaAB4nI2U3U4TQRTHz3a7/didmd1WiN6ZaLwyvdA3WumKGGjJUkAuhSjFiA3RBIhGjMGAFxI0oqQReA0foLtLnwLPfOzxhgYuuv1l5nz8zzkzA3W4aUGxFc5E4KdbO9nzo0H/ddbfO+8ejsM9ufK1n3a3Bv214ep6dnKQrXUb2i7d7CWft5PdPRCzT8K5qDHRbi1ES+0Y7l7hli0fPITyo7DTieKl61g/uFJJ+mo3e38KYiZqNRuzcftpNNFBJf5iiDka0bNOHKoFbyacm2s046mFKAbejMP5ycZjtbUEdy7Pke2cYTOS31+SN8vgLITz051RcoarG8n3j9mP02z5j7SuzLem22ETU12nk4c9qGIPO+FUCz1GqEk3N1FN+uk4OVsBbnrYmA7jyWhUkvOfO+crJ0lvI3t3lH7ow/3LzQbH35LdA7QcrvaS7svhi/Vke3+k8O1fg5O3/ysFWMQfFOXHlp8SUYXIVWThh4EDTBFH4ooEkkA7CwrGw0K7nARRQFQnGjNUMAoKSFqBjVQhqioqIrlEntm1jV0RSds5SNquhMRMZNtokRQQ1ck312LDuCGlyVCBKFdaNErLSEqBJffGTDyHlDpGqSV7dzF7sW9J4kRCkY3km4oco09SzeR1qGsOKS3p8VgVKENJRrGruKa74SJpBR7uclUIwzWffFUOHGBZfnCNI8nd2wWBpLJZMprO4SPpyAH+57VVTDxpp+MJpLqJXDWRa+CaXnlIWksRd7WvQMo9XJOtjqSyobWrsjFLztQzSl3le0t55HldE+UGeFofSNIeY/ifV+5RJz3qJKNJM5o0o0kzmjSjSTPqAaP5MpzvysVfS1I+X0bzZTRfRvNlZr6OqlN3ktOJ5XRiOZ1YTieWk3pOJ1aQZkH3SND9EHSPBPn6pl4bfLpvPtn5VKVvqpQejEiYufl0mnyapa9zIAX0vgT0vgT0vgQ6B/aqJjuo3pea6gJXJGQP7X/BcXUj",
+    "startingItems": [
+    	{"item": "copper", "amount": 1000},
+    	{"item": "surge-alloy", "amount": 1000},
+    	{"item": "titanium", "amount": 1000},
+    	{"item": "thorium", "amount": 1000},
+    	{"item": "lead", "amount": 1000},
+    	{"item": "silicon", "amount": 1000},
+    	{"item": "初等金属", "amount": 1000},
+    	{"item": "超导晶体", "amount": 1000},
+    	{"item": "graphite", "amount": 1000},
+    	
+    ],
+    "conditionWave": 10,
+    "launchPeriod": 5,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "星灵族1", 
+    		"wave": 20
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "星灵族"
+    	}
+    	{
+    		"type": "Unlock",
+    		"block": "矿机1"
+    	}
+    ],
+    "resources": ["copper","coal","titanium","thorium","sand","金属原矿","lead","反物质","晶体原矿"]
+}

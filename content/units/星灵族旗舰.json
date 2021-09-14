@@ -1,0 +1,43 @@
+{
+	"type": "HoverUnit",
+	"name": "'星云'战斗旗舰",
+	"description": "很奇怪的，一向比人族科技领先的星辰各族竟然比人类睌造出这种巨型单位，说真的，如果不是人类所迫，没有'人'会去造这种东西。      全长：3200米（800象素）     武器：充能主炮             防护：65000.",
+	"speed": 0.016,
+	"flying": true,
+	"hitsize": 80,
+	"health": 65000,
+	"rotateWeapon": true,
+	"engineOffset": 50.5,
+	"engineSize":0,
+	"attackLength":600,
+	"mass":48,
+    "rotateSpeed": 0.01,
+    "maxRotateSpeed": 0.01,
+    "weaponOffsetX": 100,
+	"range": 300,
+	"weapon": {
+		"name": "充能主炮"
+        "length": 2,
+		"reload": 220,
+    	"range": 300,
+		"alternate": true,
+		 "bullet":{
+		    "type":"BasicBulletType"
+			"splashDamageRadius": 50,
+			"splashDamage":1400,
+			"speed": 6,
+			"damage": 3000,
+    		"bulletSprite":"星空战争重置版-blaster"
+			"bulletWidth": 15,
+			"bulletHeight": 50,
+			"trailEffect": "nuclearShockwave",
+			"smokeEffect": "bigShockwave",
+			"lifetime":250,
+			"ammoMultiplier": 1,
+			"backColor":"0000ff",
+			"fontColor":"0000f4",
+			"heatColor":"0000f4",
+			"trailColor":"0000fC",
+             }
+	}
+}

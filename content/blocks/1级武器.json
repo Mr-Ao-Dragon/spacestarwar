@@ -1,0 +1,12 @@
+{
+	"name": "超级武器初级导论",
+	"description": ".",
+	"type": "Wall",
+	"health": 1,
+	"size": 1,
+	"requirements": [
+		{ "item": "研究点", "amount": 3000 }
+	],
+	"category": "effect"
+	"research": "科学研究所"
+}

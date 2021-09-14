@@ -1,0 +1,13 @@
+{
+	"name": "大型复合装甲",
+	"description": "由于科技水平不足，人类只能以复合材料来弥补。                          本墙贴图由@烎（2447919132）设计",
+	"type": "Wall",
+	"health": 7000,
+	"size": 2,
+	"requirements": [
+		{ "item": "初等金属", "amount": 12 },
+		{ "item": "thorium", "amount": 12 }
+	],
+	"category": "defense"
+	"research": "人族墙小"
+}

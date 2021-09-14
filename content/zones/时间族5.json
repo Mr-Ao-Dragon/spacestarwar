@@ -1,0 +1,37 @@
+{
+	"name": "决战",
+	"description": "这是大战的尾声，围绕银河一周都在发生这样的决战。为此，你必需做好万全的准备。                            --Hey等等，为什么船上有那么多空位？                                  --人类间谍破坏了我们的一部分蓝图库，武器冷却设备的蓝图没了，我们连日设计，但还没来得及实装，这是蓝图，你边打边改装吧。",
+	"loadout": "bXNjaAB4nGNgYmBiZGDJS8xNZWB/tmDH0/3NhowMSs9mzH++ctezjhlPdnW+bO99vnfd884O3WfTp7/o2ABRxcDAwMgABwBc/B4N",
+    "startingItems": [
+    	{"item": "致密合金", "amount": 10000},
+    	{"item": "tardis", "amount": 10},
+    	{"item": "空间湮灭晶体", "amount": 100},
+    	{"item": "时间晶体", "amount": 3000},
+    	{"item": "高能晶体", "amount": 25000},
+    	{"item": "战斗旗舰舰体", "amount": 60},
+    	{"item": "初等金属", "amount": 10000},
+    	{"item": "超导晶体", "amount": 10000},
+    	{"item": "silicon", "amount": 10000},
+    	{"item": "surge-alloy", "amount": 10000},
+    	{"item": "graphite", "amount": 10000},
+    	{"item": "titanium", "amount": 10000},
+    	
+    ],
+
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "时间族4",
+    		"wave":20
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "时空管理者"
+    	}
+    	{
+    		"type": "Unlock",
+    		"block": "矿机1"
+    	}
+    ],
+    "resources": ["copper","coal","titanium","thorium","sand","金属原矿","lead","反物质","晶体原矿"]
+}

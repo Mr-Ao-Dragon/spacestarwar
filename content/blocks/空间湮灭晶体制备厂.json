@@ -1,0 +1,35 @@
+{
+	"type": "GenericCrafter",
+	"name": "空间湮灭晶体制备厂",
+	"description": "制造时空族去往过去未来的核心.         本贴图由@木铭（2129142561）设计",
+	"outputItem": {
+		"item": "空间湮灭晶体", "amount": 1
+		},
+	"itemCapacity": 200,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 600,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 250.0
+		"items": {
+			"items": [
+				{ "item": "高能晶体", "amount": 100 }
+				{ "item": "反物质", "amount": 100 }
+				{ "item": "时间晶体", "amount": 100 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "高能晶体", "amount": 200 },
+		{ "item": "致密合金", "amount": 250 },
+		{ "item": "surge-alloy", "amount": 200 },
+		{ "item": "phase-fabric", "amount": 300 },
+	],
+	"category": "crafting",
+	"research": "时间族炮1",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

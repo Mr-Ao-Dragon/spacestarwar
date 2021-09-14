@@ -1,0 +1,12 @@
+{
+	"name": "[#00ffff]星灵族",
+	"description": "由宇宙中各大种族联合而成，科技高度发展，但由于其尊重每一个成员想法的理念，无法像人类一样大量征兵。.",
+	"type": "Wall",
+	"health": 1,
+	"size": 1,
+	"requirements": [
+		{ "item": "种族选择", "amount": 1 }
+	],
+	"category": "effect"
+	"research": "meltdown"
+}

@@ -1,0 +1,10 @@
+{
+    "research":"5级武器",
+
+	"requirements": [
+		{ "item": "致密合金", "amount": 425 },
+		{ "item": "超导晶体", "amount": 1250 }
+
+	],
+    "category":"effect"
+}

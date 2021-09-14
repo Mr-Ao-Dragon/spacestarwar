@@ -1,0 +1,40 @@
+{
+	"type": "PowerTurret",
+	"name": "聚能主炮",
+	"description": "对敌造成巨大伤害及范围伤害，作为主炮使用。",
+	"health":6000,
+	"ratateSpeed":1,
+	"size":4,
+	"reload":180 ,
+	"range": 8000,
+	"targetGround":true,
+	"targetAir":true,
+	"shootSound":"重",
+	"ammoUseEffect":"bigShockwave",
+	"inaccuracy": 0,
+	"rotatespeed": 10,
+	"powerUse": 300.0
+	"shootType":{
+        "type" : "BasicBulletType"
+		"splashDamageRadius":50,
+		"splashDamage": 1500,
+		"bulletSprite": "星空战争重置版-blaster"
+		"speed": 10.0,
+		"bulletWidth": 30,
+		"bulletHeight": 60,
+		"damage": 3500,
+		"hitEffect":"impactcloud"
+		"shootEffect": "lancerLaserCharge",
+		"smokeEffect": "lancerLaserShootSmoke",
+		"ammoMultiplier": 1,
+		"lifetime":900,
+	},
+	"requirements": [
+		{ "item": "致密合金", "amount": 400 }
+		{ "item": "高能晶体", "amount": 400 }
+		{ "item": "超导晶体", "amount": 800 }
+		{ "item": "surge-alloy", "amount": 400 }
+	],
+	"category": "turret",
+	"research": "星灵族炮3"
+}

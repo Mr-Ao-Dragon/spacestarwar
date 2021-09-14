@@ -1,0 +1,17 @@
+{
+	"name": "定向空间毁灭炮",
+	"description": ".",
+	"type": "MechPad",
+	"mech": "战略1",
+	"size": 6,
+	"consumes": {
+		"power": 1500.0
+	},
+	"category": "turret",
+	"research": "5级武器",
+	"requirements": [
+		{ "item": "致密合金", "amount": 1000 },
+		{ "item": "高能晶体", "amount": 1000 },
+		{ "item": "空间湮灭晶体", "amount": 5 },
+	]
+}

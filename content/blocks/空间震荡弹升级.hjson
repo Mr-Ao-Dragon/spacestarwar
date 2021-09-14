@@ -1,0 +1,22 @@
+size: 2
+update: true
+research: 8级武器
+health: 500
+solid: true
+hasItems: true
+configurable: true
+localizedName: "空间风暴升级"
+description: "用于升级你的空间风暴"
+itemCapacity: 50000
+requirements: [
+  初等金属/500
+  致密合金/500
+]
+"category": "turret"
+consumes: {
+  items: {
+    items: [
+      研究点/50000
+    ]
+  }
+}

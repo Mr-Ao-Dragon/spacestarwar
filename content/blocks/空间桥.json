@@ -1,0 +1,19 @@
+{
+    "type":"ItemBridge", 
+    "name":"空间传送桥",
+    "description":"广泛用于星际物流的一种装置，能超远程高速传送物质",
+    "health":1000,
+    "range":8000,
+    "transportTime":0.01, 
+    "speed":1000,
+    "size":1,
+    "hasItem":true,
+ 	"requirements": [
+		{ "item": "高能晶体", "amount": 20 },
+		{ "item": "致密合金", "amount": 30 },
+		{ "item": "phase-fabric", "amount": 50 }
+	],
+	"category": "distribution",
+	"research": "5级"
+    
+}

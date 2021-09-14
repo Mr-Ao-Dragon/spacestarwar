@@ -1,0 +1,29 @@
+{
+	"name": "矿区救援",
+	"description": "随着时间推移，空间越来越不稳定，到处是破空而出的怪物，几乎所有的舰队都在四处奔波，审议会，星环联合会，恒星联盟。。。所有的集会都参与了。你的舰队被派往奈洛兰星区的一个矿场，请立刻构筑防御体系，敌人可不会等你。",
+	"loadout": "bXNjaAB4nGNgYmBiZGDJS8xNZWB/tmDH0/3NhowMSs9mzH++ctezjhlPdnW+bO99vnfd884O3WfTp7/o2ABRxcDAwMgABwBc/B4N",
+    "startingItems": [
+    	{"item": "致密合金", "amount": 1000},
+    	{"item": "小型舰体", "amount": 20},
+    	{"item": "中型舰体", "amount": 10},
+    	{"item": "大型舰体", "amount": 5},
+    	{"item": "高能晶体", "amount": 1000},
+    	{"item": "初等金属", "amount": 1000},
+    	{"item": "超导晶体", "amount": 1000},
+    	{"item": "silicon", "amount": 1000},
+    	{"item": "surge-alloy", "amount": 500},
+    	{"item": "graphite", "amount": 800},
+    	{"item": "titanium", "amount": 1000},
+    	
+    ],
+    "conditionWave": 10,
+    "launchPeriod": 5,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "合集1", 
+    		"wave":20
+    	},
+    ],
+    "resources": ["copper","coal","titanium","thorium","sand","金属原矿","lead","反物质","晶体原矿"]
+}

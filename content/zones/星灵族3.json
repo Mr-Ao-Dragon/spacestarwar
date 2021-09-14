@@ -1,0 +1,35 @@
+{
+	"name": "夺回家园",
+	"description": "几天前的消息，人类强行夺取了zeopkn人生活了几千年的星城，zeopkn人的母星毁于超新星爆发，千年来这里就是他们的家，我们调给你三条指挥星舰，勿必将zeopkn人的家园物归原主！",
+	"loadout": "bXNjaAB4nGNgYmBiZGDJS8xNZWB/tmDH0/3NhowMSs9mzH++ctezjhlPdnW+bO99vnfd884O3WfTp7/o2ABRxcDAwMgABwBc/B4N",
+    "startingItems": [
+    	{"item": "致密合金", "amount": 5000},
+    	{"item": "surge-alloy", "amount": 1000},
+    	{"item": "titanium", "amount": 1000},
+    	{"item": "thorium", "amount": 1000},
+    	{"item": "高能晶体", "amount": 5000},
+    	{"item": "silicon", "amount": 1000},
+    	{"item": "初等金属", "amount": 10000},
+    	{"item": "超导晶体", "amount": 10000},
+    	{"item": "graphite", "amount": 1000},
+    	
+    ],
+    "conditionWave": 10,
+    "launchPeriod": 5,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "星灵族2", 
+    		"wave": 40
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "星灵族"
+    	}
+    	{
+    		"type": "Unlock",
+    		"block": "矿机1"
+    	}
+    ],
+    "resources": ["copper","coal","titanium","thorium","sand","金属原矿","lead","反物质","晶体原矿"]
+}

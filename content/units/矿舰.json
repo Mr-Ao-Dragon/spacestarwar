@@ -1,0 +1,27 @@
+{
+	"type": "draug",
+	"name": "工业舰",
+	"description": "工业矿舰,高速挖矿.",
+	"speed": 0.5,
+	"flying": true,
+	"hitsize": 8,
+	"dirllPower": 80,
+	"minePower": 80.0,
+	"health": 500,
+	"tier": 501,
+	"toMine":["金属原矿","晶体原矿"]
+	"itemCapacity": 1000,
+	"rotateWeapon": true,
+	"engineOffset": 15.5,
+	"range": 50,
+	"weapon":{
+	    "name": "重型舰炮"
+        "length": 2,
+    	"tier": 501,
+    	"dirllPower": 80,
+		"reload": 20,
+    	"range": 500,
+		"alternate": true,
+		"bullet":"lancerLaser"
+	}
+}

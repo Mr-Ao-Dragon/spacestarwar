@@ -1,0 +1,14 @@
+{
+	"type": "battery",
+	"name": "小型能量约束场",
+	"description":"浪费可耻，但作为一个高度发达的文明，总会面临产能过剩的问题",
+	"size": 2,
+	"health": 120,
+	"category": "power",
+	"research":"负能发电机",
+	"requirements": [
+		{"item": "超导晶体", "amount": 50},
+		{"item": "初等金属", "amount": 65}
+	],
+	"consumes": { "powerBuffered": 35000 }
+}

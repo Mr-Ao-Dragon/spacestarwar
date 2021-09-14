@@ -1,0 +1,12 @@
+{
+	"name": "舰队支援系统",
+	"description": ".",
+	"type": "Wall",
+	"health": 1,
+	"size": 1,
+	"requirements": [
+		{ "item": "研究点", "amount": 35000 }
+	],
+	"category": "effect"
+	"research": "5级武器"
+}

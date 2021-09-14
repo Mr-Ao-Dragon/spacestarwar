@@ -1,0 +1,36 @@
+{
+	"name": "末日之战",
+	"description": "自击败虚境之主后，我们以为灾难已经结束，然而，一个更加庞大的信号产生了，天知道这些怪物有多大，希望这是最后一只。你有半小时来布置防御，另外，附近星球上也有不少资源可供利用",
+	"loadout": "bXNjaAB4nGNgYmBiZGDJS8xNZWB/tmDH0/3NhowMSs9mzH++ctezjhlPdnW+bO99vnfd884O3WfTp7/o2ABRxcDAwMgABwBc/B4N",
+    "startingItems": [
+    	{"item": "致密合金", "amount": 5000},
+    	{"item": "lead", "amount": 5000},
+    	{"item": "titanium", "amount": 5000},
+    	{"item": "高能晶体", "amount": 5000},
+    	{"item": "初等金属", "amount": 10000},
+    	{"item": "超导晶体", "amount": 10000},
+    	{"item": "silicon", "amount": 5000},
+    	{"item": "surge-alloy", "amount": 5000},
+    	{"item": "graphite", "amount": 5000},
+    	
+    ],
+    "configureObjective": {
+    		"type": "ZoneWave",
+    		"zone": "合集5",
+    		"wave": 1
+    },
+    "conditionWave": 1,
+    "launchPeriod": 1,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "合集4",
+    		"wave": 17
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "矿机1"
+    	}
+    ],
+    "resources": ["copper","coal","titanium","thorium","sand","金属原矿","lead","反物质","晶体原矿","时间晶体"]
+}

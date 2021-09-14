@@ -1,0 +1,25 @@
+{
+	"type": "PowerTurret",
+	"name": "'长明灯'激光炮",
+	"description": "对敌造成巨大伤害及范围伤害，作为主炮使用。",
+	"health":3000,
+	"ratateSpeed":1,
+	"size":2,
+	"reload":60,
+	"range": 200,
+	"targetGround":true,
+	"targetAir":true,
+	"targetGround":false,
+	"ammoUseEffect": "bigShockwave",
+	"inaccuracy": 0,
+	"rotatespeed": 10,
+	"powerUse": 20.0
+	"shootType":"meltdownLaser"
+	"requirements": [
+		{ "item": "致密合金", "amount": 10 }
+		{ "item": "高能晶体", "amount": 5 }
+		{ "item": "超导晶体", "amount": 20 }
+	],
+	"category": "turret",
+	"research": "时空管理者"
+}

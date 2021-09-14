@@ -1,0 +1,44 @@
+{
+	"type": "HoverUnit",
+	"name": "'暴风'重型星舰",
+	"description": "作为各大星族的主要战舰，'暴风'级星舰集合了速度，火力，防御等多个优点 全长：1944米（486象素）     武器：离子炮             防护：25000.",
+	"speed": 0.035,
+	"flying": true,
+	"hitsize": 60,
+	"health": 25000,
+	"rotateWeapon": true,
+	"engineOffset": 50.5,
+	"engineSize":0,
+	"attackLength":400,
+	"mass":5,
+    "baseRotateSpeed":0.02,
+    "rotatespeed": 0.02,
+    "maxRotateSpeed": 0.02,
+    "weaponOffsetX": 100,
+	"range": 800,
+	"weapon": {
+		"name": "离子炮"
+        "length": 2,
+		"reload": 100,
+    	"range": 800,
+		"alternate": true,
+		 "bullet":{
+		    "type":"BasicBulletType"
+			"splashDamageRadius": 30,
+			"splashDamage":300,
+			"speed": 8,
+			"damage": 500,
+    		"bulletSprite":"星空战争重置版-blaster"
+			"bulletWidth": 15,
+			"bulletHeight": 10,
+			"trailEffect": "nuclearShockwave",
+			"smokeEffect": "bigShockwave",
+			"lifetime":108,
+			"ammoMultiplier": 1,
+			"backColor":"0000ff",
+			"fontColor":"0000f4",
+			"heatColor":"0000f4",
+			"trailColor":"0000fC",
+             }
+	}
+}

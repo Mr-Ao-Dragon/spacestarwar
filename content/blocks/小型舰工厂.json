@@ -1,0 +1,33 @@
+{
+	"type": "GenericCrafter",
+	"name": "小型舰体制造厂",
+	"description": "制造小型舰体.",
+	"outputItem": {
+		"item": "小型舰体", "amount": 1
+		},
+	"itemCapacity": 200,
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 120,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.0
+		"items": {
+			"items": [
+				{ "item": "初等金属", "amount": 50 }
+				{ "item": "超导晶体", "amount": 50 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "初等金属", "amount": 50 },
+		{ "item": "超导晶体", "amount": 50 },
+		{ "item": "thorium", "amount": 200 },
+	],
+	"category": "crafting",
+	"research": "message",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

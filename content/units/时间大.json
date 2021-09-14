@@ -1,0 +1,44 @@
+{
+	"type": "HoverUnit",
+	"name": "'黑渊魔爪'战斗旗舰",
+	"description": "与其它种族不同，时间族舰队结构十分奇特，要么是大型舰，要么是tardis，尽管这个型号的船长达2800米，却仍被时空族人用作'基础可牺牲战斗力'                  全长：2800米（700象素）     武器：引力发生器             防护：50000.",
+	"speed": 0.018,
+	"flying": true,
+	"hitsize": 80,
+	"health": 50000,
+	"attackLength":600,
+	"rotateWeapon": true,
+	"engineOffset": 50.5,
+	"engineSize":0,
+	"mass":48,
+    "rotateSpeed": 0.01,
+    "maxRotateSpeed": 0.01,
+    "weaponOffsetX": 100,
+	"range": 300,
+	"weapon": {
+		"name": "引力发生器",
+        "length": 2,
+		"reload": 10,
+    	"range": 200,
+    	"shots":30,
+    	"inaccuracy":10,
+		"alternate": true,
+		 "bullet":{
+		    "type":"BasicBulletType"
+			"splashDamageRadius": 20,
+			"splashDamage":140,
+			"speed": 6,
+			"damage": 100,
+    		"bulletSprite":"星空战争重置版-空"
+			"bulletWidth": 15,
+			"bulletHeight": 50,
+			"trailEffect": "nuclearShockwave",
+			"smokeEffect": "bigShockwave",
+			"ammoMultiplier": 1,
+			"backColor":"0000ff",
+			"fontColor":"0000f4",
+			"heatColor":"0000f4",
+			"trailColor":"0000fC",
+             }
+	}
+}

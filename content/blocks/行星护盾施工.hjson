@@ -1,0 +1,27 @@
+size: 2
+update: true
+research: 7级武器
+health: 500
+solid: true
+hasItems: true
+configurable: true
+localizedName: "行星护盾施工"
+description: "用于升级你的护盾"
+category: turret
+itemCapacity: 5000
+requirements: [
+  初等金属/200
+  致密合金/200
+]
+"category": "crafting"
+consumes: {
+  items: {
+    items: [
+      初等金属/5000
+      致密合金/5000
+      超导晶体/5000
+      高能晶体/5000
+      空间湮灭晶体/5
+    ]
+  }
+}

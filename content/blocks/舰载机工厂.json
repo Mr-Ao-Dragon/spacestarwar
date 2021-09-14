@@ -1,0 +1,33 @@
+{
+	"type": "GenericCrafter",
+	"name": "舰载机制造厂",
+	"description": "制造舰载机.",
+	"outputItem": {
+		"item": "舰载机舰体", "amount": 1
+		},
+	"itemCapacity": 200,
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 120,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.0
+		"items": {
+			"items": [
+				{ "item": "初等金属", "amount": 10 }
+				{ "item": "silicon", "amount": 10 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 50 },
+		{ "item": "silicon", "amount": 50 },
+		{ "item": "thorium", "amount": 120 },
+	],
+	"category": "crafting",
+	"research": "矿机1",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

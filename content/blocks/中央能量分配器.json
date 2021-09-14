@@ -1,0 +1,16 @@
+{
+    "type":"PowerNode",
+    "name":"中央能量分配器",
+    "health":2000,
+    "maxNodes":50,
+    "laserRange":50,
+	"requirements": [
+		{ "item": "初等金属", "amount": 20 }
+		{ "item": "titanium", "amount": 30 }
+		{ "item": "超导晶体", "amount": 10 }
+
+	],
+    "category":"power",
+    "research":"负能发电机"
+}
+    

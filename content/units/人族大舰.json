@@ -1,0 +1,44 @@
+{
+	"type": "HoverUnit",
+	"name": "'征服者'重型星舰",
+	"description": "为了应负日益增强的敌人，人联科学家日夜不息地研制了这种重型星舰。   全长：1800米（450象素）     武器：巡航导弹           防护：15000.",
+	"speed": 0.02,
+	"flying": true,
+	"hitsize": 60,
+	"health": 15000,
+	"attackLength":700,
+	"rotateWeapon": true,
+	"engineOffset": 45.5,
+	"engineSize":0,
+	"attackLength":400,
+	"mass":5,
+    "rotateSpeed": 0.01,
+    "maxRotateSpeed": 0.01,
+    "weaponOffsetX": 100,
+	"range": 100,
+	"weapon": {
+		"name": "巡航导弹"
+        "length": 2,
+		"reload": 120,
+    	"range": 100,
+		"alternate": true,
+		 "bullet":{
+		    "type":"MissileBulletType"
+			"splashDamageRadius": 30,
+			"splashDamage":150,
+			"speed": 8,
+			"damage": 300,
+			"bulletWidth": 2,
+			"bulletHeight": 10,
+			"trailEffect": "nuclearShockwave",
+			"smokeEffect": "bigShockwave",
+			"lifetime":108
+			"ammoMultiplier": 1,
+			"backColor":"0000ff",
+			"fontColor":"0000f4",
+			"heatColor":"0000f4",
+			"trailColor":"0000fC",
+            "homingRange": 240,
+            "homingPower": 200,}
+	}
+}

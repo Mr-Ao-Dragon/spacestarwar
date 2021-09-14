@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "超导晶体",
+	"description": "用于高能发电机。ISK:36",
+	"cost": 3,
+	"color": "c0c7c9"
+}

@@ -1,0 +1,16 @@
+{
+	"name": "空间拓展仓库",
+	"description": "维度工程学的杰作，it's bigger inside！",
+	"type": "Vault",
+	"itemCapacity": 1000000,
+	"hasItems": true,
+	"health": 10000,
+	"size": 3,
+	"requirements": [
+		{ "item": "高能晶体", "amount": 50 },
+		{ "item": "致密合金", "amount": 120 },
+		{ "item": "超导晶体", "amount": 300 }
+	],
+	"category": "effect"
+	"research": "时间族炮3"
+}

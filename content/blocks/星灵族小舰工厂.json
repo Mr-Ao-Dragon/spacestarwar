@@ -1,0 +1,26 @@
+{
+	"name": "'探索者级'工厂",
+	"description": "生产探索者级星舰",
+	"type": "UnitFactory",
+	"unitType": "星灵族小舰",
+	"size": 2,
+	"maxSpawn": 4,
+	"produceTime": 1200,
+	"consumes": {
+		"power": 2.5,
+		"items": {
+			"items": [
+				{"item": "小型舰体", "amount": 1},
+				{"item": "高能晶体", "amount": 30}
+			]
+		}
+	},
+	"category": "units",
+	"research": "星灵族炮3",
+	"requirements": [
+		{ "item": "初等金属", "amount": 100 },
+		{ "item": "致密合金", "amount": 20 },
+		{ "item": "silicon", "amount": 100 },
+		{ "item": "超导晶体", "amount": 50 }
+	]
+}

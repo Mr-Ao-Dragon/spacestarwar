@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "金属原矿",
+	"description": "内含金属物质，可提炼初等金属 ISK:5",
+	"hardness": 5,
+	"color": "080502"
+}

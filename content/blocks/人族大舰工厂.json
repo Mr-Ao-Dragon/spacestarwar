@@ -1,0 +1,26 @@
+{
+	"name": "'征服者级'工厂",
+	"description": "生产征服者级星舰",
+	"type": "UnitFactory",
+	"unitType": "人族大舰",
+	"size": 4,
+	"maxSpawn": 2,
+	"produceTime": 4000,
+	"consumes": {
+		"power": 18.5,
+		"items": {
+			"items": [
+				{"item": "大型舰体", "amount": 1},
+				{"item": "高能晶体", "amount": 100}
+			]
+		}
+	},
+	"category": "units",
+	"research": "人族中舰工厂",
+	"requirements": [
+		{ "item": "初等金属", "amount": 300 },
+		{ "item": "致密合金", "amount": 100 },
+		{ "item": "silicon", "amount": 200 },
+		{ "item": "超导晶体", "amount": 100 }
+	]
+}

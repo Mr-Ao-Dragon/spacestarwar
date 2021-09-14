@@ -1,0 +1,42 @@
+{
+	"type": "ArtilleryTurret",
+	"name": "'真理大炮'因果律修改器",
+	"description": "宛若神明的科技让时空一族拥有支配星辰的力量，该武器通过空间湮灭晶体的巨大能量将一定范围内的敌人打回娘胎",
+	"health":10000,
+	"ratateSpeed":1,
+	"size":3,
+	"reload":180,
+	"range": 8000,
+	"targetGround":true,
+	"targetAir":true,
+	"ammoUseEffect": "padlaunch",
+	"inaccuracy": 0,
+ 	"restitution":1,
+	"shots": 1,
+	"rotatespeed": 10,
+	"ammo":{
+	    "空间湮灭晶体":{
+        "type" : "BasicBulletType"
+		"splashDamageRadius":24,
+		"splashDamage": 1000000,
+		"bulletSprite": "星空战争重置版-空"
+		"speed": 10.0,
+		"bulletWidth": 10,
+		"bulletHeight": 50,
+		"damage": 1000000,
+		"hitEffect":"none"
+		"shootEffect": "none",
+		"smokeEffect": "none",
+		"ammoMultiplier": 2,
+		"lifetime":600,
+	    }
+	}
+	"requirements": [
+		{ "item": "致密合金", "amount": 500 }
+		{ "item": "高能晶体", "amount": 500 }
+		{ "item": "超导晶体", "amount": 800 }
+		{ "item": "时间晶体", "amount": 500 }
+	],
+	"category": "turret",
+	"research": "时间族炮2"
+}

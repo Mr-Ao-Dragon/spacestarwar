@@ -1,0 +1,29 @@
+{
+    "type": "SingleTypeGenerator",
+    "name": "反物质发电机",
+    "description": "反物质的大量开采使众星族可以将其用作发电物质。",
+    "size": 3,
+    "health": 5000,
+    "itemCapacity": 50,
+    "hasLiquids": false,
+    "hasItems": true,
+    "itemDuration": 240
+    "powerProduction": 1500
+        "consumes": {
+		"items": {
+			"items": [
+				{ "item": "反物质", "amount": 1 }
+			],
+			"optional": true
+		}
+	},
+    "requirements": [
+		{"item": "titanium", "amount": 500},
+  {"item": "thorium", "amount": 200},
+  {"item": "surge-alloy", "amount": 100},
+  {"item": "超导晶体", "amount": 200},
+  {"item": "初等金属", "amount": 200},
+	],
+	"category": "power",
+	"research": "星灵族炮2"
+}

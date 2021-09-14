@@ -1,0 +1,28 @@
+{
+	"type": "GenericCrafter",
+	"name": "科学研究所",
+	"description": "研究最新科技，解锁高端生产力及战斗力.",
+	"outputItem": {
+		"item": "研究点", "amount": 1
+		},
+	"itemCapacity": 10,
+	"size": 4,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 100.0
+	},
+	"requirements": [
+		{ "item": "初等金属", "amount": 200 },
+		{ "item": "silicon", "amount": 200 },
+		{ "item": "thorium", "amount": 500 },
+		{ "item": "致密合金", "amount": 100 },
+	],
+	"category": "crafting",
+	"research": "kiln",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

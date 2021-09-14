@@ -1,0 +1,26 @@
+{
+	"name": "'武士'战机工厂",
+	"description": "生产小飞机",
+	"type": "UnitFactory",
+	"unitType": "战机",
+	"size": 1,
+	"maxSpawn": 10,
+	"produceTime": 180,
+	"consumes": {
+		"power": 1.5,
+		"items": {
+			"items": [
+				{"item": "舰载机舰体", "amount": 1},
+				{"item": "超导晶体", "amount": 10}
+			]
+		}
+	},
+	"category": "units",
+	"research": "人族炮3",
+	"requirements": [
+		{ "item": "初等金属", "amount": 30 },
+		{ "item": "致密合金", "amount": 10 },
+		{ "item": "silicon", "amount": 40 },
+		{ "item": "超导晶体", "amount": 10 }
+	]
+}

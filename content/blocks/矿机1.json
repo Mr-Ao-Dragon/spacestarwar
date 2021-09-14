@@ -1,0 +1,19 @@
+{
+	"name": "'基石'采掘器",
+	"description": "原版钻机的加强版，更快开矿.",
+	"type": "Drill",
+	"size": 3,
+	"tier": 1500,
+	"drillTime": 60,
+	"liquidBoostIntensity":1.8
+	"consumes": {
+		"power": 5.0,
+	},
+	"requirements": [
+		{ "item": "thorium", "amount": 200 },
+		{ "item": "silicon", "amount": 100 },
+		{ "item": "graphite", "amount": 100 }
+	],
+	"category": "production",
+	"research": "laser-drill"
+}

@@ -1,0 +1,35 @@
+{
+	"type": "GenericCrafter",
+	"name": "大型舰体制造厂",
+	"description": "制造大型舰体.",
+	"outputItem": {
+		"item": "大型舰体", "amount": 1
+		},
+	"itemCapacity": 800,
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 2400,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 20.0
+		"items": {
+			"items": [
+				{ "item": "致密合金", "amount": 100 }
+				{ "item": "超导晶体", "amount": 200 }
+				{ "item": "高能晶体", "amount": 50 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "初等金属", "amount": 400 },
+		{ "item": "超导晶体", "amount": 400 },
+		{ "item": "致密合金", "amount": 50 },
+		{ "item": "高能晶体", "amount": 50 },
+	],
+	"category": "crafting",
+	"research": "中型舰工厂",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

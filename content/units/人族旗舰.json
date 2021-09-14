@@ -1,0 +1,43 @@
+{
+	"type": "HoverUnit",
+	"name": "'光荣'战斗旗舰",
+	"description": "天知道造出这么个大家伙让多少人累死饿死，让多少科学家脑细胞死完，但总之，有了它，人类就有了同宇宙一战之力。         全长：3000米（750象素）     武器：光子鱼雷           防护：55000.",
+	"speed": 0.014,
+	"flying": true,
+	"hitsize": 60,
+	"health": 55000,
+	"rotateWeapon": true,
+	"attackLength":600,
+	"engineOffset": 45.5,
+	"engineSize":0,
+	"mass":50,
+    "rotateSpeed": 0.01,
+    "maxRotateSpeed": 0.01,
+    "weaponOffsetX": 100,
+	"range": 300,
+	"weapon": {
+		"name": "光子鱼雷"
+        "length": 2,
+		"reload": 240,
+    	"range": 300,
+		"alternate": true,
+		 "bullet":{
+		    "type":"MissileBulletType"
+			"splashDamageRadius": 50,
+			"splashDamage":1000,
+			"speed": 5,
+			"damage": 2500,
+			"bulletWidth": 10,
+			"bulletHeight": 50,
+			"trailEffect": "nuclearShockwave",
+			"smokeEffect": "bigShockwave",
+			"lifetime":245
+			"ammoMultiplier": 1,
+			"backColor":"0000ff",
+			"fontColor":"0000f4",
+			"heatColor":"0000f4",
+			"trailColor":"0000fC",
+            "homingRange": 240,
+            "homingPower": 200,}
+	}
+}

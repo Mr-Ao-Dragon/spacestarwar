@@ -1,0 +1,31 @@
+{
+	"name": "始源",
+	"description": "这是故事开始的地方，人类的远征军发现了一个有大量资源的星球.占据它，抵御敌人",
+	"loadout": "bXNjaAB4nIWUbU/TUBTHb/fY9nYbbIynARITX5nF+JEqVIyBjcwN5Z2BKMMEFxISIBpnDAY1kaDRiIvAR/ENbdlH8NU85/buzxuHWdf+cnt7zv+eJ5ETs4ZIVNwlTxQuOp1gt3Vx8jTsHF42j+8EOz8L4maw1w4/doLm3kVns7uxFZ4ehZvNcrTXf7fvHxyK7PID95FXnqtWVrzVau3/3xy3xOx1e8K1o7siu+RV5svLtepDb65OVtP33Hrdq60OMh+2z0m1/+O9/3LtegnBi4Pw1ZnIPXbJXtl7Uq+5ykOKPXr0rFUb9EaYjcpi1eWV5IrbWKwPshrs7pLn4O2Jf74uMvM1t7FQvq9MroqMVl1edGsLnrj1bwvdjW3/y5vw61m49ovlD9h2+a19uX7qt7bDne/B6464PeCUJ5/9gyPa2d1o+c3n3Wdb/v4HIUSb/sLkm2HQzRZJYSuSRFKRQ+QwiIzax1eCKR4jstUakwQ5oBxoCDQMyisrQsTo16cUyATZIAeUBQ2BruyNgEZB46BJTXF9Dr6mQDP6bIlIi8G70motQRSpShLZIAlyQCpW8RRRpDRNFCk1iZRSwfYipexjFDSmyCLqa06ICayV9FpS2YgoBkpoK0kdSc6oUh8zOLe9P72OYJIgB5Tp/e59inPmWUveYGIt+RjbG4ePKwXT2lsK3lKRN4MpipUkspQ9h96pWFF0UlGEBL/lKrlhZImiCOVoX0FHMiWKivjbMXibAE3qbKVZkKYEKKmtpLW+OFEaZIIsRUNEOXxR1OrTyluezpbW3viLEnxMgaZBMzpCJnJkIkcmcmQiaiaiZupulPRUUYszcawcRVlVNwZRjv5FUmrqqDGp3orz2yLnMsY+JuBtEgpKoH4GLWixdL0kiExtz0LlWKgcS1fOMFFU7XmiKH5Zor4qS/clU5RVtjyio2tFtaZI1ZrS0q81S6vnydTPqo2+tHUuqa7RjTa60dbdmCfKYS0PKuiT2+g8G51nawVMJSiYAvXzK5FVicklMbkkJpfE5JKYXBKTS2JySUwuicklEQ2JDDqYXBntLUZkgyTIwb4M1vpTOYOpnNGVw5TXOc8KrgVbEWdHKnI47/G/+p5Ibw==",
+    "startingItems": [
+    	{"item": "copper", "amount": 1000},
+    	{"item": "surge-alloy", "amount": 1000},
+    	{"item": "titanium", "amount": 1000},
+    	{"item": "thorium", "amount": 1000},
+    	{"item": "lead", "amount": 1000},
+    	{"item": "silicon", "amount": 1000},
+    ],
+    "conditionWave": 10,
+    "launchPeriod": 5,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "序章1", 
+    		"wave": 1
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "人类联邦"
+    	}
+    	{
+    		"type": "Unlock",
+    		"block": "矿机1"
+    	}
+    ],
+    "resources": ["copper","coal","titanium","thorium","sand","金属原矿","lead"]
+}

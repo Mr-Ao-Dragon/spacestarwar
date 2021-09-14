@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "时间晶体",
+	"description": "可对时间线造成影响的晶体，制造tardis的材料ISK:84",
+	"hardness": 100,
+	"cost": 4.0,
+	"color": "29203f"
+}

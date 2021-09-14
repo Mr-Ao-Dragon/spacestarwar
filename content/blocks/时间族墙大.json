@@ -1,0 +1,13 @@
+{
+	"name": "大型量子叠加护甲",
+	"description": "宛若神明的科技让时空一族可利用时间晶体将一块材料通过反复穿梭同一时间，让它的现在与未来同时存在于同一处，以达到双倍防御                       本墙贴图由@烎（2447919132）设计",
+	"type": "Wall",
+	"health": 24000,
+	"size": 2,
+	"requirements": [
+		{ "item": "致密合金", "amount": 24 },
+		{ "item": "时间晶体", "amount": 5 },
+	],
+	"category": "defense"
+	"research": "时间族墙小"
+}

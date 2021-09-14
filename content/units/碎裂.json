@@ -1,0 +1,49 @@
+{
+	"type": "flyingUnit",
+	"name": "碎裂",
+	"description": "有着和lich相同的攻击方式，但就算十个lich也顶不上一个碎裂.",
+	"speed": 0.025,
+	"flying": true,
+	"hitsize": 40,
+	"health": 180000,
+	"rotateWeapon": true,
+	"engineOffset": 50.5,
+	"engineSize":0,
+	"mass":5,
+    "rotateSpeed": 0.02,
+    "maxRotateSpeed": 0.02,
+    "weaponOffsetX": 100,
+	"range": 800,
+	"weapon": {
+		"name": "炸药包"
+        "length": 2,
+		"reload": 200,
+		"shotDelay": 2.25,
+		"spacing": 5,
+        "velocityRnd": 0.15,
+    	"range": 800,
+    	"shoots":15
+		"alternate": true,
+		"pierce":false, 
+		 "bullet":{
+		    "type":"MissileBulletType"
+			"speed": 10,
+			"damage": 500,
+			"hitShake":5,
+			"pierce":false, 
+			"bulletWidth": 30,
+			"bulletHeight": 30,
+			"trailEffect": "missileTrail",
+			"smokeEffect": "none",
+			"hitEffect":"hitLaser"
+			"lifetime":108,
+			"ammoMultiplier": 1,
+			"backColor":"ff0000",
+			"fontColor":"ff0000",
+			"heatColor":"ff0000",
+			"trailColor":"ff0000",
+			"homingRange":160,
+			"homingPower":1
+             }
+	}
+}

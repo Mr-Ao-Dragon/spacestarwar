@@ -1,0 +1,26 @@
+{
+	"name": "'星辰级'工厂",
+	"description": "生产星辰级星舰",
+	"type": "UnitFactory",
+	"unitType": "星灵族中舰",
+	"size": 3,
+	"maxSpawn": 3,
+	"produceTime": 2400,
+	"consumes": {
+		"power": 8.5,
+		"items": {
+			"items": [
+				{"item": "中型舰体", "amount": 1},
+				{"item": "高能晶体", "amount": 70}
+			]
+		}
+	},
+	"category": "units",
+	"research": "星灵族小舰工厂",
+	"requirements": [
+		{ "item": "初等金属", "amount": 300 },
+		{ "item": "致密合金", "amount": 80 },
+		{ "item": "silicon", "amount": 200 },
+		{ "item": "超导晶体", "amount": 100 }
+	]
+}

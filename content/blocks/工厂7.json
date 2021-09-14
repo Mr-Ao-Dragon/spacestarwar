@@ -1,0 +1,29 @@
+{
+	"type": "GenericCrafter",
+	"name": "'银色源头'金属生成器",
+	"description": "利用质能转换技术，使能量凝成无信息物质，并通过信息赋予使其成为反物质，在没有反物质的区域使用它.",
+	"outputItem": {
+		"item": "金属原矿", "amount": 10
+		},
+	"itemCapacity": 500,
+	"size": 4,
+	"health":1500,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 100.0
+	},
+	"requirements": [
+		{ "item": "超导晶体", "amount": 300 },
+		{ "item": "初等金属", "amount": 300 },
+		{ "item": "致密合金", "amount": 200 },
+		{ "item": "高能晶体", "amount": 120 },
+	],
+	"category": "crafting",
+	"research": "4级",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

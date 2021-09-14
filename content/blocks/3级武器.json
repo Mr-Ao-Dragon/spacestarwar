@@ -1,0 +1,12 @@
+{
+	"name": "初级远程光束炮导论",
+	"description": ".",
+	"type": "Wall",
+	"health": 1,
+	"size": 1,
+	"requirements": [
+		{ "item": "研究点", "amount": 10000 }
+	],
+	"category": "effect"
+	"research": "2级武器"
+}

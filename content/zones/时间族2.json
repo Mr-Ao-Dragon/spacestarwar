@@ -1,0 +1,35 @@
+{
+	"name": "星云深渊",
+	"description": "众所周知，星云内部有着丰富的资源，不幸的是，敌人也知道                    --终于开战舰了。。为什么装甲是隔壁借的？                              --护盾失效了你还指望装甲？省点钱吧",
+	"loadout": "bXNjaAB4nI2U308TQRDHt9z1enfbK+WHBS0/jMYncw/y7/h00hMh0JKjLfJoiVJMsCGaFKIRYzBqogQNICEC/4fP3B39K3B2d2588RL687N7uzPfmdlZNsBuZ5he9RZ8pkfdo6kSuxdt7cRfT6L21sXJem9tIz7di9fbrph9dhh1O+HH7XD387WW7XdYYfGJt+S707Vq01+pBSz3yKvX/WCF3U3Z3z3qdQ9gf9zae8Du/3/RxfH3cHfvcvW0t9YJ2y96zzfC7S+ssOBXK+5iUJvzp+vgyqkEXmPGfeyJ0Uqq4MRh9HI3fnvG+pc90Of6T+uBp8ygYnfeC2Z8xhe8pSW3Esw2/YCZjep8zasApVjvrW2GP97HP8/i1u/wVStt2eXBDkQTdjbjN4fRuxN2J01r97K9H304Ds9XWbbpNebr18njFDPnGtXp+mytmmY53jkHy+GvT0Kkvuw1/dR8bR9dnL7+FxFjTfiyMlOvPnaLaEz+Z5jGigI0QQOS+oAGrx5e/ZE0JEaShsVIrrsh14lPCe1pbBRJB9vqqQ7vhAwik8gmyhMViIpEg2R5GH3pKg5NeCjTunGMKIuSBGUkZYGkUs0AGsG9WXYT9xq4Q+hU6nNASr0JpNRb8C/Vg/Ic43KOAxVEriAGQ2qeZA7QAGbZgEzWrr5pgoaIhiUVgFQmNaAyKRgjVRPSSj/4kNmAXxPqoXbkVBzgycQ4xFwZc2BSDkzMgQbUR6QR6UQyb9ogMzFeQTl6ahJZkvJAQn1ezpXo6QjWyEQtgsbo6TipmiClk1hfi6pgoVIDKKmCRVWwMLohIBt3WuoMwQmx1BmCsSWzNgoqLaxHASjJuEVKLVQq/Ca5t1CfBh6KRElVbaqqTVW1saoGUHLCbKqMjfXNqHODlEFvnHqGU89w6hlOPcOpZzj1DKee4dQznHqGY89kgUqoilPPcOwZka0S0SjGm8cuy8CJLhIld4RDd4QDlXDkHeGAN0feEQ7dEQ7dOQ7eOeJEq4z/Bao9dpM=",
+    "startingItems": [
+    	{"item": "copper", "amount": 1000},
+    	{"item": "surge-alloy", "amount": 1000},
+    	{"item": "titanium", "amount": 1000},
+    	{"item": "thorium", "amount": 1000},
+    	{"item": "lead", "amount": 1000},
+    	{"item": "silicon", "amount": 1000},
+    	{"item": "初等金属", "amount": 1000},
+    	{"item": "超导晶体", "amount": 1000},
+    	{"item": "graphite", "amount": 1000},
+    	
+    ],
+    "conditionWave": 10,
+    "launchPeriod": 5,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "时间族1", 
+    		"wave": 20
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "时空管理者"
+    	}
+    	{
+    		"type": "Unlock",
+    		"block": "矿机1"
+    	}
+    ],
+    "resources": ["copper","coal","titanium","thorium","sand","金属原矿","lead","反物质","晶体原矿"]
+}

@@ -1,0 +1,12 @@
+{
+    "type":"Unloader",
+    "name":"物流调度器",
+    "health":500,
+    "speed":0.001,
+    "requirements":[
+        {"item":"初等金属","amount":50},
+        {"item":"超导晶体","amount":50}],
+    "research":"5级",
+    "category":"effect"
+    
+}

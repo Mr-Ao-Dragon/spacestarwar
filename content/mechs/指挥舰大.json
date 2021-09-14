@@ -1,0 +1,40 @@
+{
+	"name": "暴风指挥型",
+	"description": "配有大火力量，同时加装微型跃迁器",
+	"speed": 0.3,
+	"buildPower": 1.5,
+	"engineColor": "0014ff",
+	"flying": true,
+	"hitsize": 60,
+	"health": 25000,
+	"drillPower": 0,
+	"weaponOffsetX": 1,
+	"weaponOffsetY": 1,
+	"shootSound": "laser"
+	"range": 1000,
+	"weapon": {
+		"name": "离子炮"
+        "length": 2,
+		"reload": 100,
+    	"range": 500,
+		"alternate": true,
+		 "bullet":{
+		    "type":"BasicBulletType"
+			"splashDamageRadius": 50,
+			"splashDamage":300,
+			"speed": 8,
+			"damage": 300,
+    		"bulletSprite":"星空战争重置版-blaster"
+			"bulletWidth": 15,
+			"bulletHeight": 10,
+			"trailEffect": "nuclearShockwave",
+			"smokeEffect": "bigShockwave",
+			"ammoMultiplier": 1,
+			"lifetime":600,
+			"backColor":"0000ff",
+			"fontColor":"0000f4",
+			"heatColor":"0000f4",
+			"trailColor":"0000fC",
+             }
+	},
+}

@@ -1,0 +1,35 @@
+{
+	"name": "旗舰指挥",
+	"description": "我们首艘超级旗舰完工了！今天是个伟大的日子，你很荣幸被选作总指挥带领这条旗舰守卫我们最重要的生产基地，奖励会随时间增加而变多",
+	"loadout": "bXNjaAB4nGNgYmBiZGDJS8xNZWB/tmDH0/3NhowMSs9mzH++ctezjhlPdnW+bO99vnfd884O3WfTp7/o2ABRxcDAwMgABwBc/B4N",
+    "startingItems": [
+    	{"item": "致密合金", "amount": 5000},
+    	{"item": "舰载机舰体", "amount": 1000},
+    	{"item": "小型舰体", "amount": 300},
+    	{"item": "中型舰体", "amount": 100},
+    	{"item": "高能晶体", "amount": 5000},
+    	{"item": "大型舰体", "amount": 60},
+    	{"item": "初等金属", "amount": 5000},
+    	{"item": "超导晶体", "amount": 5000},
+    	{"item": "战斗旗舰舰体", "amount": 12},
+    	
+    ],
+    "conditionWave": 10,
+    "launchPeriod": 5,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "人族3", 
+    		"wave":30
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "人类联邦"
+    	}
+    	{
+    		"type": "Unlock",
+    		"block": "矿机1"
+    	}
+    ],
+    "resources": ["copper","coal","titanium","thorium","sand","金属原矿","lead","反物质","晶体原矿"]
+}

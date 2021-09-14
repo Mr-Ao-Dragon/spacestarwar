@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "小型舰体",
+	"description": "小型星舰，较灵活，但极脆弱。ISK:5400",
+	"cost": 10000,
+	"color": "000000"
+}

@@ -1,0 +1,21 @@
+{
+    "type":"SolidPump",
+    "name":"'喷泉'水源制造仪",
+    "description":"由于位面恶魔的入侵，巨舰的需求迅速增长，即使科技使整个舰队只需要指挥，在舰人数也大得可怕，为了使星舰可以自持，'喷泉'水源制造仪被发明以供消耗       本墙贴图由@烎（2447919132）设计
+    ",
+    "health":300,
+	"liquidCapacity":90,
+	"result": "water",
+	"size": 3,
+    "pumpAmount": 1.5,
+	"drillTime": 60,
+	"consumes": {
+		"power": 10.0,
+	},
+    "requirements":[
+        {"item":"初等金属","amount":100},
+        {"item":"超导晶体","amount":100}
+        ],
+        "category":"production",
+        "research":"1级"
+}

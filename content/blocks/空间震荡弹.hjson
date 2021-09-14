@@ -1,0 +1,28 @@
+{
+    localizedName:空间风暴-基址
+    description:在升级之前你可以把它当作一个很慢，很贵，很弱的电弧（作者的话：别问我为什么升级了贴图没变，也别问我为什么没底座，我不知道) 。. 
+	hasItems:true
+	health: 1000
+	size: 4
+	reload:400
+	range: 8000
+	recoil: 6
+	targetAir:true
+	powerUse: 500.0
+	shots: 1
+	shootSound:重
+	inaccuracy: 0
+	rotatespeed: 5
+	shootType: arc
+    chargeTime: 240
+	chargeBeginEffect:lancerLaserChargeBegin
+	requirements:[
+		高能晶体/300
+		致密合金/300
+		超导晶体/500
+		初等金属/500
+		空间湮灭晶体/1
+	]
+	category:turret
+	research:8级武器
+}

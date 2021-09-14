@@ -1,0 +1,19 @@
+{
+	"name": "无人机挂仓",
+	"description": "内含一矿无人机",
+	"type": "UnitFactory",
+	"unitType": "小矿",
+	"size": 2,
+	"maxSpawn": 1,
+	"produceTime": 3600,
+	"consumes": {
+		"power": 10.0,
+		},
+	"category": "units",
+	"research": "矿机1",
+	"requirements": [
+		{ "item": "初等金属", "amount": 100 },
+		{ "item": "silicon", "amount": 100 },
+		{ "item": "超导晶体", "amount": 50 }
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"type": "BurstTurret",
+	"name": "任务炮",
+	"description": "用于让玩家在地上爬",
+	"health": 2000000,
+	"size": 1,
+	"reload": 10,
+	"maxAmmo":5000, 
+	"shots": 1,
+	"buildVisibility":"sandboxOnly",
+ 	"restitution":1,
+	"range": 8000,
+	"targetGround":false,
+	"targetAir":true,
+	"ammoUseEffect": "shellEjectMedium",
+	"inaccuracy": 0,
+	"rotatespeed": 20,
+	"ammo": {
+		"初等金属": {
+		    "type":"BasicBulletType"
+			"speed": 20,
+			"damage": 500000,
+			"bulletWidth": 2,
+			"bulletHeight": 10,
+			"trailEffect": "none",
+			"smokeEffect": "none",
+			"ammoMultiplier": 1000,
+			"lifetime":800,
+			"backColor":"00ffff",
+			"fontColor":"00fff4",
+			"heatColor":"00fff4",
+			"trailColor":"00fffC",
+		}
+	},
+	"requirements": [
+		{ "item": "coal", "amount": 50 },
+		{ "item": "sand", "amount": 10 }
+
+	],
+	"category": "turret",
+	"research": "pvp电"
+}

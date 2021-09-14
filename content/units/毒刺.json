@@ -1,0 +1,46 @@
+{
+	"type": "flyingUnit",
+	"name": "毒刺",
+	"description": "十多万年前人类的典籍中描绘过一种异形舰船，它以穿刺这种简单粗暴的方式毁灭了上千战舰。尽管那部典籍的宇宙观是错误的，但这种舰船却与毒刺的武器极为相似，护盾应该能很好地拦截它.",
+	"speed": 0.005,
+	"flying": true,
+	"hitsize": 40,
+	"health": 123000,
+	"rotateWeapon": true,
+	"engineOffset": 50.5,
+	"engineSize":0,
+	"mass":5,
+    "rotateSpeed": 0.02,
+    "maxRotateSpeed": 0.02,
+    "weaponOffsetX": 100,
+	"range": 800,
+	"weapon": {
+		"name": "刺"
+        "length": 2,
+		"reload": 240,
+    	"range": 800,
+		"alternate": false,
+		"pierce":true, 
+		 "bullet":{
+		    "type":"BasicBulletType"
+			"speed": 25,
+			"damage": 500,
+			"hitShake":5,
+			"pierce":true, 
+    		"bulletSprite":"星空战争重置版-恶魔3"
+			"bulletWidth": 30,
+			"bulletHeight": 30,
+			"trailEffect": "missileTrail",
+			"smokeEffect": "none",
+			"hitEffect":"hitLaser"
+			"lifetime":240,
+			"ammoMultiplier": 1,
+			"backColor":"ff0000",
+			"fontColor":"ff0000",
+			"heatColor":"ff0000",
+			"trailColor":"ff0000",
+			"homingRange":160,
+			"homingPower":1
+             }
+	}
+}

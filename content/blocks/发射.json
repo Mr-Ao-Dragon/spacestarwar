@@ -1,0 +1,24 @@
+{
+    "type":"LaunchPad", 
+    "name":"物品传送台", 
+    "description":"打开虫洞，直接发射物品，发射量小，但极其迅速，耗能爆炸", 
+    "health":500,
+    "size":2, 
+    "itemCapacity":10, 
+    "launchTime":20, 
+    "hasPower":true, 
+	"consumes": {
+		"power": 100.0,
+	},
+	"requirements": [
+		{ "item": "高能晶体", "amount": 50 },
+		{ "item": "超导晶体", "amount": 100 },
+		{ "item": "致密合金", "amount": 50 },
+		{ "item": "初等金属", "amount": 100 },
+		{ "item": "metaglass", "amount": 150 },
+		{ "item": "反物质", "amount": 20 },
+		]
+	"category": "effect",
+	"research": "矿机1"
+		
+}

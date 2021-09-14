@@ -1,0 +1,23 @@
+{
+	"type":"RepairPoint",
+	"name":"远程修复",
+	"description":"远距离修复单位。",
+	"size":1,
+	"hasItems":false,
+	"hasPower":true,
+	"hasLiquids":false,
+	"consumes": {
+		"power": 5.0},
+	"requirements": [
+		{ "item": "超导晶体", "amount":100},
+		{"item": "致密合金","amount":50}
+	],
+	"health":50,
+	"craftEffect":"shockwave",
+	"updateEffect":"shockwave",
+	"powerUse":10.0,
+	"repairSpeed":0.3,
+	"repairRadius":3200,
+	"category": "units",
+	"research": "中央能量分配器"
+}

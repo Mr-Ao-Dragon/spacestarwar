@@ -1,0 +1,43 @@
+{
+	"type": "flyingUnit",
+	"name": "'统治者'中型星舰",
+	"description": "人类常规舰队的主要力量之一       全长:1200米（300）    武器：散射导弹                  防御:9000.",
+	"speed": 0.05,
+	"flying": true,
+	"hitsize": 40,
+	"health": 9000,
+	"attackLength":400,
+	"rotateWeapon": true,
+	"engineOffset": 75.5,
+	"engineSize":0,
+	"mass":5,
+    "rotateSpeed": 0.01,
+    "maxRotateSpeed": 0.01,
+    "weaponOffsetX": 100,
+	"range": 50,
+	"weapon": {
+		"name": "散射导弹"
+        "length": 2,
+		"reload": 120,
+    	"range": 50,
+		"alternate": true,
+		 "bullet":{
+            "type":"MissileBulletType"
+			"splashDamageRadius": 12,
+			"splashDamage":50,
+			"speed": 8,
+			"damage": 10,
+			"bulletWidth": 2,
+			"bulletHeight": 10,
+			"trailEffect": "nuclearShockwave",
+			"smokeEffect": "bigShockwave",
+			"lifetime":50
+			"ammoMultiplier": 1,
+			"backColor":"0000ff",
+			"fontColor":"0000f4",
+			"heatColor":"0000f4",
+			"trailColor":"0000fC",
+            "homingRange": 240,
+            "homingPower": 200,}
+	}
+}

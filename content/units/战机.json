@@ -1,0 +1,44 @@
+{
+	"type": "flyingUnit",
+	"name": "'武士'战机",
+	"description": "小型战机，极脆弱，但却是分散敌人注意的好东西。      全长：128米（32象素）     武器：射弹机枪             防护：200.",
+	"speed": 4.0,
+	"maxVelocity":4.0
+	"flying": true,
+	"hitsize": 10,
+	"health": 200,
+	"attackLength":80,
+	"rotateWeapon": true,
+	"engineOffset": 1.5,
+	"engineSize":0,
+	"mass":1,
+    "rotateSpeed": 0.03,
+    "maxRotateSpeed": 0.04,
+    "weaponOffsetX": 100,
+	"range": 10,
+	"weapon": {
+		"name": "射弹机枪"
+        "length": 2,
+		"reload": 10,
+    	"range": 10,
+    	"shots": 1,
+    	"velocityInaccuracy": 0,
+		"alternate": true,
+		 "bullet":{
+		    "type":"BasicBulletType"
+			"splashDamageRadius": 0,
+			"splashDamage":0,
+			"speed": 15,
+			"damage": 1,
+			"bulletWidth": 1,
+			"bulletHeight": 5,
+			"trailEffect": "none",
+			"smokeEffect": "none",
+			"ammoMultiplier": 1,
+			"backColor":"0000ff",
+			"fontColor":"0000f4",
+			"heatColor":"0000f4",
+			"trailColor":"0000fC",
+             }
+	}
+}

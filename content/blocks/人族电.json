@@ -1,0 +1,29 @@
+{
+    "type": "SingleTypeGenerator",
+    "name": "低效反物质发电机",
+    "description": "因为能源短缺，人类又一次盗取了一批蓝图，不幸的是，拙劣的技术使发电机效率低下。而相似的外型让所有生命体一看就知道源自抄袭。",
+    "size": 3,
+    "health": 5000,
+    "itemCapacity": 50,
+    "hasLiquids": false,
+    "hasItems": true,
+    "itemDuration": 180
+    "powerProduction": 1000
+        "consumes": {
+		"items": {
+			"items": [
+				{ "item": "反物质", "amount": 1 }
+			],
+			"optional": true
+		}
+	},
+    "requirements": [
+		{"item": "titanium", "amount": 300},
+  {"item": "thorium", "amount": 200},
+  {"item": "surge-alloy", "amount": 100},
+  {"item": "超导晶体", "amount": 150},
+  {"item": "初等金属", "amount": 150},
+	],
+	"category": "power",
+	"research": "人族炮2"
+}

@@ -1,0 +1,34 @@
+{
+	"type":"ForceProjector"
+	"name":"星舰主护盾"
+	"description":"特大型星舰护盾，盾容80000，临界伤害900"
+	"health": 300,
+	"size": 2,
+	"radius": 300,
+	"color": "00ffff",
+	"breakage": 80000,
+	"hasPower":true,
+	"cooldown": 120,
+	"cooldownNormal": 15,
+	"basePowerDraw":50.0,
+	"cooldownBrokenBase": 30
+	"consumes":{
+		"power":50.0
+		"items":{
+			"items":[
+				{"item":"高能晶体","amount":1}
+			]
+			"booster":true,
+			"optional":true
+		}
+	}
+	"requirements":[
+		{ "item":"lead","amount":200}
+		{ "item":"titanium","amount":200}
+		{ "item":"silicon","amount":200}
+		{ "item":"surge-alloy","amount":100}
+		{ "item":"高能晶体","amount":30}
+	]
+	"category":"defense"
+	"research":"人族墙大"
+}

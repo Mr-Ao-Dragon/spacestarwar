@@ -1,0 +1,17 @@
+{
+	"name": "大型旗舰核心",
+	"description": "建立一个无法拆除的核心",
+	"type": "CoreBlock",
+	"itemCapacity": 120000,
+	"hasItems": true,
+	"health": 4500,
+	"mech":"指挥舰",
+	"size": 3,
+	"breakable":false,
+	"requirements": [
+		{ "item": "初等金属", "amount": 1000 },
+		{ "item": "致密合金", "amount": 300 },
+	],
+	"category": "effect"
+	"research": "旗舰核心",
+}

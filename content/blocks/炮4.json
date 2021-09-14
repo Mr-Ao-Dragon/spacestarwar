@@ -1,0 +1,168 @@
+{
+	"type": "BurstTurret",
+	"name": "千相大炮",
+	"description": "随着武器火力加强，伤害溢出日益严重，千相大炮被开发出来解决这一问题，如果不考虑其毁灭性的伤害，它甚至可用作节日礼花",
+	"health": 5000,
+	"size": 4,
+	"reload": 200,
+	"shots": 1,
+ 	"velocityInaccuracy":0.1,
+ 	"restitution":1,
+	"range": 8000,
+	"targetGround":true,
+	"targetAir":true,
+	"ammoUseEffect": "shootBig",
+	"inaccuracy": 0,
+	"rotatespeed": 10,
+	"ammo": {
+		"高能晶体": {
+		    "type":"MissileBulletType",
+		    "splashDamage":1000,
+		    "splashDamageRange":1000,
+			"speed": 10,
+			"damage": 2000,
+			"bulletWidth": 10,
+			"bulletHeight": 50,
+			"trailEffect": "missileTrail",
+			"smokeEffect": "shootBigSmoke",
+			"ammoMultiplier": 1,
+			"lifetime":60,
+			"pierce":false,
+			"backColor":"0000ff",
+			"fontColor":"0000f4",
+			"heatColor":"0000f4",
+			"trailColor":"0000fC",
+            "homingRange": 240,
+            "homingPower": 200,
+         	"fragBullets":1,
+            "fragBullet":
+         {
+         "type" : "MissileBulletType",
+         "speed":20,
+         "pierce":false,
+         "lifetime":60,
+         "keepVelocity":true,
+         "bulletWidth": 12,
+		"bulletHeight": 20,
+         "damage":2000,
+         "backColor":"00ffff",			
+         "frontColor":"00ffff",
+         "hitEffect":"shockwave"
+	     "trailColor":"00ffff"
+            "homingRange": 8000,
+            "homingPower": 200,
+         	"fragBullets":1,
+            "fragBullet":
+         {
+         "type" : "MissileBulletType",
+         "speed":10,
+         "pierce":false,
+         "lifetime":60,
+         "bulletWidth": 12,
+		"bulletHeight": 20,
+         "damage":2000,
+         "backColor":"ff00ff",			
+         "frontColor":"ff00ff",
+         "hitEffect":"shockwave"
+	     "trailColor":"ff00ff"
+            "homingRange": 8000,
+            "homingPower": 200,
+         	"fragBullets":1,
+            "fragBullet":
+         {
+         "type" : "MissileBulletType",
+         "speed":10,
+         "pierce":false,
+         "lifetime":120,
+         "bulletWidth": 12,
+		"bulletHeight": 20,
+         "damage":2000,
+         "backColor":"ff0000",			
+         "frontColor":"ff0000",
+         "hitEffect":"shockwave"
+	     "trailColor":"ff0000"
+            "homingRange": 8000,
+            "homingPower": 200,
+         	"fragBullets":1,
+            "fragBullet":
+         {
+         "type" : "MissileBulletType",
+         "speed":10,
+         "pierce":false,
+         "lifetime":60,
+         "bulletWidth": 12,
+		"bulletHeight": 20,
+         "damage":2000,
+         "backColor":"ffff00",			
+         "frontColor":"ffff00",
+         "hitEffect":"shockwave"
+	     "trailColor":"ffff00"
+            "homingRange": 8000,
+            "homingPower": 200,
+         	"fragBullets":1,
+            "fragBullet":
+         {
+         "type" : "MissileBulletType",
+         "speed":10,
+         "pierce":false,
+         "lifetime":60,
+         "bulletWidth": 12,
+		"bulletHeight": 20,
+         "damage":2000,
+         "backColor":"ffffff",			
+         "frontColor":"ffffff",
+         "hitEffect":"shockwave"
+	     "trailColor":"ffffff"
+            "homingRange": 8000,
+            "homingPower": 200,
+         	"fragBullets":1,
+            "fragBullet":
+         {
+         "type" : "MissileBulletType",
+         "speed":10,
+         "pierce":false,
+         "lifetime":60,
+         "bulletWidth": 12,
+		"bulletHeight": 20,
+         "damage":2000,
+         "backColor":"000000",			
+         "frontColor":"000000",
+         "hitEffect":"shockwave"
+	     "trailColor":"000000"
+            "homingRange": 8000,
+            "homingPower": 200,
+         	"fragBullets":10,
+            "fragBullet":
+         {
+         "type" : "MissileBulletType",
+         "speed":10,
+         "pierce":false,
+         "lifetime":60,
+         "bulletWidth": 12,
+		"bulletHeight": 20,
+         "damage":500,
+         "backColor":"696AFF",			
+         "frontColor":"696AFF",
+         "hitEffect":"shockwave"
+	     "trailColor":"696AFF"
+            "homingRange": 8000,
+            "homingPower": 200,
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+	},
+	"requirements": [
+		{ "item": "初等金属", "amount": 1500 },
+		{ "item": "超导晶体", "amount": 1500 }
+		{ "item": "高能晶体", "amount": 1500 }
+		{ "item": "致密合金", "amount": 1500 }
+
+	],
+	"category": "turret",
+	"research": "2级武器"
+}

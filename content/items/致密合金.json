@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "致密合金",
+	"description": "金属原子以金刚石结构排布，使其坚硬无比。ISK:645.5",
+	"cost": 2,
+	"color": "f0a7e9"
+}

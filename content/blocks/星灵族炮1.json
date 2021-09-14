@@ -1,0 +1,41 @@
+{
+	"type": "PowerTurret",
+	"name": "密集防空阵",
+	"description": "用快速发射的能量团拦截来袭飞船、战机",
+	"health":1000,
+	"ratateSpeed":1,
+	"size":1,
+	"reload":10 ,
+	"range": 200,
+	"shootSound":"点防",
+	"targetAir":true,
+	"targetGround":false,
+	"ammoUseEffect":"shellEjectMedium",
+	"inaccuracy": 0,
+	"rotatespeed": 10,
+	"powerUse": 0.5
+	"shootType":{
+        "type" : "BasicBulletType"
+		"splashDamageRadius":32,
+		"splashDamage":20,
+		"speed": 10,
+		"damage": 10,
+		"bulletWidth": 1,
+		"bulletHeight": 5,
+		"trailEffect": "none",
+		"smokeEffect": "none",
+		"ammoMultiplier": 1,
+		"lifetime":600,
+		"backColor":"0000ff",
+		"fontColor":"0000ff",
+		"heatColor":"0000ff",
+		"trailColor":"0000ff",
+	},
+	"requirements": [
+		{ "item": "初等金属", "amount": 15 }
+		{ "item": "silicon", "amount": 10 }
+		{ "item": "titanium", "amount": 10 }
+	],
+	"category": "turret",
+	"research": "星灵族"
+}

@@ -1,0 +1,34 @@
+{
+	"type": "GenericCrafter",
+	"name": "金属压缩厂",
+	"description": "将金属压缩产出致密合金.",
+	"outputItem": {
+		"item": "致密合金", "amount": 1
+		},
+	"itemCapacity": 200,
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 120,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2.0
+		"items": {
+			"items": [
+				{ "item": "初等金属", "amount": 20 }
+				{ "item": "surge-alloy", "amount": 5 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "plastanium", "amount": 20 },
+		{ "item": "初等金属", "amount": 50 },
+		{ "item": "surge-alloy", "amount": 20 },
+		{ "item": "phase-fabric", "amount": 10 },
+	],
+	"category": "crafting",
+	"research": "金属精炼厂",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

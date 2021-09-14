@@ -1,0 +1,36 @@
+{
+	"name": "决战",
+	"description": "这是大战的尾声，围绕银河一周都在发生这样的决战。为此，你必需做好万全的准备。                            --Hey等等，为什么船上有那么多空位？                                  --联邦政府实再没钱了，毕竟要打造那么多战舰，不过我们的间谍偷到了外星佬的冷却系统蓝图，船上那些空位可以安装。",
+	"loadout": "bXNjaAB4nGNgYmBiZGDJS8xNZWB/tmDH0/3NhowMSs9mzH++ctezjhlPdnW+bO99vnfd884O3WfTp7/o2ABRxcDAwMgABwBc/B4N",
+    "startingItems": [
+    	{"item": "致密合金", "amount": 10000},
+    	{"item": "小型舰体", "amount": 500},
+    	{"item": "中型舰体", "amount": 300},
+    	{"item": "大型舰体", "amount": 100},
+    	{"item": "高能晶体", "amount": 25000},
+    	{"item": "战斗旗舰舰体", "amount": 30},
+    	{"item": "初等金属", "amount": 10000},
+    	{"item": "超导晶体", "amount": 10000},
+    	{"item": "silicon", "amount": 10000},
+    	{"item": "surge-alloy", "amount": 10000},
+    	{"item": "graphite", "amount": 10000},
+    	{"item": "titanium", "amount": 10000},
+    	
+    ],
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "人族4", 
+    		"wave":20
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "人类联邦"
+    	}
+    	{
+    		"type": "Unlock",
+    		"block": "矿机1"
+    	}
+    ],
+    "resources": ["copper","coal","titanium","thorium","sand","金属原矿","lead","反物质","晶体原矿"]
+}

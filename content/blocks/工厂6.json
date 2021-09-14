@@ -1,0 +1,29 @@
+{
+	"type": "GenericCrafter",
+	"name": "'黑暗之源'反物质生成器",
+	"description": "利用质能转换技术，使能量凝成无信息物质，并通过信息赋予使其成为反物质通过逆熵科技，它甚至能吸取外界能量，以达到凭空生产，与反物质发电机组成永动机，你可以在没有反物质的区域使用它.",
+	"outputItem": {
+		"item": "反物质", "amount": 1
+		},
+	"itemCapacity": 500,
+	"health": 1500,
+	"size": 4,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 120,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1000.0
+	},
+	"requirements": [
+		{ "item": "超导晶体", "amount": 400 },
+		{ "item": "初等金属", "amount": 400 },
+		{ "item": "致密合金", "amount": 250 },
+		{ "item": "高能晶体", "amount": 200 },
+	],
+	"category": "crafting",
+	"research": "4级",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

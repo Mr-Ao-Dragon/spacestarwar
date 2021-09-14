@@ -1,0 +1,16 @@
+{
+	"name": "指挥舰平台",
+	"description": "变成暴风级指挥舰参与战.",
+	"type": "MechPad",
+	"mech": "指挥舰大",
+	"size": 2,
+	"consumes": {
+		"power": 50.0
+	},
+	"category": "upgrade",
+	"research": "星灵族炮4",
+	"requirements": [
+		{ "item": "致密合金", "amount": 300 },
+		{ "item": "反物质", "amount": 200 },
+	]
+}

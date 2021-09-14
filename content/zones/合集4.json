@@ -1,0 +1,30 @@
+{
+	"name": "末日初临",
+	"description": "[red]注意：本关请先活过第十五波直接放弃，然后自定义携带足够资源作战。	[yellow]--托上回那个孤儿文明的福，空间裂口的数量增加了一圈，我们甚至检测到了更大的怪物即将到来，不过也亏它大，我们准确地预测了它来临的时间	--所以我应该。。。	--时间还有，我们给你配备了一条建造工程建，你要在附近空域修筑防御，你大概会有十五分钟。。。嘿，别往上装采矿无人机，那里空得什么都没有",
+	"loadout": "bXNjaAB4nGNgYmBiZGDJS8xNZWB/tmDH0/3NhowMSs9mzH++ctezjhlPdnW+bO99vnfd884O3WfTp7/o2ABRxcDAwMgABwBc/B4N",
+    "startingItems": [
+    	{"item": "致密合金", "amount": 500},
+    	{"item": "lead", "amount": 5000},
+    	{"item": "titanium", "amount": 5000},
+    	{"item": "高能晶体", "amount": 500},
+    	{"item": "初等金属", "amount": 1000},
+    	{"item": "超导晶体", "amount": 1000},
+    	{"item": "silicon", "amount": 5000},
+    	{"item": "surge-alloy", "amount": 5000},
+    	{"item": "graphite", "amount": 5000},
+    	
+    ],
+    "conditionWave": 16,
+    "launchPeriod": 1,
+    "requirements": [
+    	{
+    		"type": "Launched",
+    		"zone": "合集3", 
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "矿机1"
+    	}
+    ],
+    "resources": ["tardis"]
+}

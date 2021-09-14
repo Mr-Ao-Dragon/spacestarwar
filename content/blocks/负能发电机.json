@@ -1,0 +1,29 @@
+{
+    "type": "SingleTypeGenerator",
+    "name": "负能发电机",
+    "description": "将两块金属板对立，其中间会产生负能量，所有能星际航行的种族都有这项科技，因为这就是曲率引擎的原理。           本贴图由@木铭（2129142561）设计",
+    "size": 2,
+    "health": 1000,
+    "itemCapacity": 50,
+    "hasLiquids": false,
+    "hasItems": true,
+    "itemDuration": 300
+    "powerProduction": 300
+        "consumes": {
+		"items": {
+			"items": [
+				{ "item": "surge-alloy", "amount": 2 }
+			],
+			"optional": true
+		}
+	},
+    "requirements": [
+		{"item": "copper", "amount": 500},
+  {"item": "thorium", "amount": 200},
+  {"item": "titanium", "amount": 200},
+  {"item": "silicon", "amount": 200},
+  {"item": "初等金属", "amount": 200},
+	],
+	"category": "power",
+	"research": "impact-reactor"
+}

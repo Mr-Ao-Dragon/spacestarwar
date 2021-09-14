@@ -1,0 +1,31 @@
+{
+	"name": "始源",
+	"description": "这是故事开始的地方，人类的远征军发现了一个有大量资源的星球，于是他们开始侵略，阻止他们！                   --为什么给我的飞船长成这样？       --对付那些生物要什么好船？让他们知道，随便拉条货船我们也能打趴他们。                                   --你：。。。。那也不用拿个百万年前的老古董出来吧。                       --这是仓库里找出来最符合敌人水准的飞船了，再弱也找不到，一句话，去不去？                               --去。。。真扣，还得自给自足。",
+	"loadout": "bXNjaAB4nIVTUW/SUBQ+taUUhAKFCRKcy8yeTGP8L/6BOurUbGWpzIQ3ZVGYyUaWLGGLRozBbD5I1DhF4rY/Q1v4FfPc3tuDD5Klae+Xc873feeeewvLkJRAcawNG/L+YS94eToevghGx5P213v+we8MrLDo55HfPhyPdqat3eBsEOy0TV7rdzvexyOvfwx3rigLmoP7kK661taa+chardfcBugbtlM1N93aU5sFIP3Qqtdtt2GuW+6aDfrmY+uZba7WnOd2A9MJRHXriWO785qatva9b++D7+dB84+31wRty1mvWVUkLM9pr9vFjfofht7F9pU79d/0g7fn86SC3gVKeb8+MeO7/68ZD794/cFk+2za6njt19NXu97RyTzfyY8eVnqd/eDg1H83griYDgA8wBdi7COzT1yga6AQUgVSeImMh0wMhWclCSNRTAWJEGcwjVk28tBQmyEZkSKUNXLTqC4BILIJyiYFV0KkEIoRmtVxFQVS1EFKcBni2RjouOhhtzrvHlhMvjy5/CmriLhHHJEqPHTqT8deuUoGlwyGGOJcDRFj3EZGhtyyuGRDtyy5ZQUjgYi7JRGpfO+IIo8cLrnQIycYMTAwZoR6BukZ1L0h9K4jivQM0svjkg/18oIBUBAT0hAxbgqfAp9fiKLpFsSO0rDAPXAWC+RxQ6joiGaxaGpFOtUinWCRTrBIHiW6JSWqK/2TjYvYTYqV6f6V6f6V6fTL1EGF7nOFshW6z7cotkj/wiJ5LFF2Sej9BW5UGWg=",
+    "startingItems": [
+    	{"item": "copper", "amount": 1000},
+    	{"item": "surge-alloy", "amount": 1000},
+    	{"item": "titanium", "amount": 1000},
+    	{"item": "thorium", "amount": 1000},
+    	{"item": "lead", "amount": 1000},
+    	{"item": "silicon", "amount": 1000},
+    ],
+    "conditionWave": 10,
+    "launchPeriod": 5,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "序章1", 
+    		"wave": 1
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "星灵族"
+    	}
+    	{
+    		"type": "Unlock",
+    		"block": "矿机1"
+    	}
+    ],
+    "resources": ["copper","coal","titanium","thorium","sand","金属原矿","lead"]
+}

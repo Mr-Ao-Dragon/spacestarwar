@@ -1,0 +1,18 @@
+{
+    "type":"Router",
+    "name":"物流集散中心",
+    "health":1500,
+    "hasItems":true,
+    "itemCapacity":1,
+    "transportTime":0.01, 
+    "speed":1000,
+    "size":3,
+    "requirements":[
+        {"item":"初等金属","amount":50 },
+        {"item":"超导晶体","amount":20 }
+        ],
+    "research":"5级",
+    "category":"distribution"
+    
+    
+}

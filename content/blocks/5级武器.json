@@ -1,0 +1,12 @@
+{
+	"name": "初级战略指向性武器",
+	"description": ".",
+	"type": "Wall",
+	"health": 1,
+	"size": 1,
+	"requirements": [
+		{ "item": "研究点", "amount": 35000 }
+	],
+	"category": "effect"
+	"research": "4级武器"
+}

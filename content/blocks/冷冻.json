@@ -1,0 +1,38 @@
+{
+	"type": "GenericSmelter",
+	"name": "'冰封'冷冻液高效工厂",
+	"description": "快速产冷冻液",
+	"itemCapacity":100,
+	"health":400,
+	"size":3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime":60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power":8,
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 3 }
+			]
+},
+		"liquid": {
+			"liquid": "water",
+			"amount": 1.4
+		}
+	},
+  	"liquidCapacity": 200,
+	"outputLiquid": {"liquid": "cryofluid", "amount" : 90},
+	"requirements": [
+		{ "item": "高能晶体", "amount": 40 },
+		{ "item": "致密合金", "amount": 80 },
+		{ "item": "silicon", "amount": 280 },
+		{ "item": "titanium", "amount": 150 },
+		{ "item": "graphite", "amount": 180 }
+	],
+	"category": "crafting",
+	"research": "3级",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

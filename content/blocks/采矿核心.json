@@ -1,0 +1,16 @@
+{
+	"name": "采矿核心",
+	"description": "建立一个无法拆除的核心矿，用于矿物增加开采和精炼的接口",
+	"type": "CoreBlock",
+	"itemCapacity": 100,
+	"hasItems": true,
+	"health": 200,
+	"size": 1,
+	"breakable":false,
+	"requirements": [
+		{ "item": "surge-alloy", "amount": 100 },
+		{ "item": "silicon", "amount": 100 },
+	],
+	"category": "effect"
+	"research": "vault",
+}

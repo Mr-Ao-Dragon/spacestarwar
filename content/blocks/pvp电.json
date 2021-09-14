@@ -1,0 +1,35 @@
+{
+    "type": "NuclearReactor",
+    "name": "pvp",
+    "description": "pvp防。",
+    "size": 3,
+    "health": 5000000,
+    "itemCapacity": 50,
+    "hasLiquids": false,
+    "hasItems": true,
+	"buildVisibility":"sandboxOnly",
+    "heating":0.000005,
+    "itemDuration": 2400000
+    "explosionRadius":30.0,
+    "explosionDamage":6000000.0,
+    "powerProduction": 1500
+        "consumes": {
+		"items": {
+			"items": [
+				{ "item": "种族选择", "amount": 1 }
+			],
+		}
+		"liquid": {
+			"liquid": "water",
+			"amount": 1.4
+		}
+		
+
+	},
+    "requirements": [
+		{"item": "coal", "amount": 500},
+
+	],
+	"category": "power",
+	"research": "duo"
+}

@@ -1,0 +1,25 @@
+{
+	"name": "'工业舰'工厂",
+	"description": "生产工业舰",
+	"type": "UnitFactory",
+	"unitType": "矿舰",
+	"size": 2,
+	"maxSpawn": 4,
+	"produceTime": 500,
+	"consumes": {
+		"power": 5.5,
+		"items": {
+			"items": [
+				{"item": "小型舰体", "amount": 1},
+			]
+		}
+	},
+	"category": "units",
+	"research": "星灵族炮3",
+	"requirements": [
+		{ "item": "初等金属", "amount": 50 },
+		{ "item": "致密合金", "amount": 10 },
+		{ "item": "silicon", "amount": 50 },
+		{ "item": "超导晶体", "amount": 20 }
+	]
+}

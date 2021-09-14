@@ -1,0 +1,36 @@
+{
+	"name": "时间线的更正",
+	"description": "--事实证明，时空科技的泛滥就是个灾难，好了，现在fuzi族的舰队打不过nuken空间站就准备回到它初建的时候摧毁它，这群蠢货是当真不知道那里有现在人类反侵略领袖爷爷在吗。           --所以？                           --驾驶这个盘子回去击败fuzi舰队，密集的型体会让我们更快。。至少等那个人离开，时间线计算机会告诉你什么时候能走的。",
+	"loadout": "bXNjaAB4nGNgYmBiZGDJS8xNZWB/tmDH0/3NhowMSs9mzH++ctezjhlPdnW+bO99vnfd884O3WfTp7/o2ABRxcDAwMgABwBc/B4N",
+    "startingItems": [
+    	{"item": "致密合金", "amount": 5000},
+    	{"item": "surge-alloy", "amount": 1000},
+    	{"item": "titanium", "amount": 1000},
+    	{"item": "thorium", "amount": 1000},
+    	{"item": "高能晶体", "amount": 5000},
+    	{"item": "silicon", "amount": 1000},
+    	{"item": "时间晶体", "amount": 1000},
+    	{"item": "初等金属", "amount": 10000},
+    	{"item": "超导晶体", "amount": 10000},
+    	{"item": "graphite", "amount": 1000},
+    	
+    ],
+    "conditionWave": 12,
+    "launchPeriod": 5,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "时间族2", 
+    		"wave": 40
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "时空管理者"
+    	}
+    	{
+    		"type": "Unlock",
+    		"block": "矿机1"
+    	}
+    ],
+    "resources": ["copper","coal","titanium","thorium","sand","金属原矿","lead","反物质","晶体原矿"]
+}

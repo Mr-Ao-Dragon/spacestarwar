@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "种族选择",
+	"description": "用于选择种族，当空间恶魔大规模来临时可再次选择",
+	"cost": 5.0,
+	"explosiveness":10000,
+	"color": "ffffff"
+}

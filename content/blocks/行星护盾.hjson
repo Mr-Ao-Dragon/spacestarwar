@@ -1,0 +1,30 @@
+localizedName:行星护盾-基址
+description:""
+update: true,
+health: 1500,
+size: 8,
+radius:120
+breakage:50000
+cooldownNormal:5
+cooldownLiquid:5.5
+cooldownBrokenBase:7.5
+hasPower:true,
+  consumes:{
+		power:50.0
+		items:{
+			items:[
+				高能晶体/1
+			]
+			booster:true,
+			optional:true
+		}
+	}
+	requirements:[
+		空间湮灭晶体/20
+		初等金属/5000
+		超导晶体/5000
+		致密合金/5000
+		高能晶体/5000
+	]
+"category": "crafting"
+research:"7级武器"

@@ -1,0 +1,33 @@
+{
+	"type":"ForceProjector",
+	"name":"'守护者'星舰主护盾",
+	"description":"特大型星舰护盾，盾容150000，临界伤害2400",
+	"health": 500,
+	"size": 2,
+	"radius": 320,
+	"color": "00ffff",
+	"breakage": 150000,
+	"basePowerDraw":75.0,
+	"cooldown": 120,
+	"cooldownNormal": 40,
+	"cooldownBrokenBase": 80,
+	"consumes":{
+		"power":75.0,
+		"items":{
+			"items":[
+				{"item":"高能晶体","amount":1}
+			],
+			"booster":true,
+			"optional":true
+		}
+	},
+	"requirements":[
+		{ "item":"超导晶体","amount":200},
+		{ "item":"titanium","amount":200},
+		{ "item":"silicon","amount":200},
+		{ "item":"surge-alloy","amount":100},
+		{ "item":"高能晶体","amount":50}
+	],
+	"category":"defense",
+	"research":"星灵族墙大"
+}

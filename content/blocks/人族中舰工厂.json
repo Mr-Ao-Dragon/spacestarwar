@@ -1,0 +1,26 @@
+{
+	"name": "'统治者级'工厂",
+	"description": "生产统治者级星舰",
+	"type": "UnitFactory",
+	"unitType": "人族中舰",
+	"size": 3,
+	"maxSpawn": 3,
+	"produceTime": 2000,
+	"consumes": {
+		"power": 8.5,
+		"items": {
+			"items": [
+				{"item": "中型舰体", "amount": 1},
+				{"item": "高能晶体", "amount": 50}
+			]
+		}
+	},
+	"category": "units",
+	"research": "人族小舰工厂",
+	"requirements": [
+		{ "item": "初等金属", "amount": 200 },
+		{ "item": "致密合金", "amount": 75 },
+		{ "item": "silicon", "amount": 150 },
+		{ "item": "超导晶体", "amount": 80 }
+	]
+}

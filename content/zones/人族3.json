@@ -1,0 +1,35 @@
+{
+	"name": "守卫星城",
+	"description": "--终于把这些低贱的虫子赶出这颗星球了。如此富裕的星域当然要给高贵的人类来开发喽。                       --所以我是来。。。                 --注意你对上级的礼仪！立正，上校，你的使命就是完成星城的建设，还有，如果外银河的那些杂种再过来，把它们打回老家。",
+	"loadout": "bXNjaAB4nGNgYmBiZGDJS8xNZWB/tmDH0/3NhowMSs9mzH++ctezjhlPdnW+bO99vnfd884O3WfTp7/o2ABRxcDAwMgABwBc/B4N",
+    "startingItems": [
+    	{"item": "致密合金", "amount": 500},
+    	{"item": "surge-alloy", "amount": 1000},
+    	{"item": "titanium", "amount": 1000},
+    	{"item": "thorium", "amount": 1000},
+    	{"item": "高能晶体", "amount": 500},
+    	{"item": "silicon", "amount": 1000},
+    	{"item": "初等金属", "amount": 1000},
+    	{"item": "超导晶体", "amount": 1000},
+    	{"item": "graphite", "amount": 1000},
+    	
+    ],
+    "conditionWave": 10,
+    "launchPeriod": 5,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "人族2", 
+    		"wave": 40
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "人类联邦"
+    	}
+    	{
+    		"type": "Unlock",
+    		"block": "矿机1"
+    	}
+    ],
+    "resources": ["copper","coal","titanium","thorium","sand","金属原矿","lead","反物质","晶体原矿"]
+}
